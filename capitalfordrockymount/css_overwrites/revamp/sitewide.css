@@ -293,6 +293,26 @@ input:disabled {
   float: left;
 }
 
+body .active-template-price-block .stacked-srp-prices > .col-xs-6 {
+  width: 100%;
+}
+
+.vehicle-price-block h5.price-label,
+.price-block h5.price-label,
+.stacked-vehicle-prices h5.price-label {
+  float: left;
+}
+
+.vehicle-price-block h3,
+.price-block h3,
+.stacked-vehicle-prices h3,
+.vehicle-price-block h4,
+.price-block h4,
+.stacked-vehicle-prices h3,
+.stacked-vehicle-prices h4 {
+  float: right;
+}
+
 /* ePrice Button */
 
 .get-price-btn-container .get-price-button {
@@ -498,8 +518,6 @@ body .vehicle-model-dropdown .search-btns .btn {
 
 .streakform .btn-success.form-submit-button:hover,
 .streakform .btn-success.form-submit-button:active,
-.unlock-price-button:hover,
-.get-price-button:hover,
 .service-coupons
   .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4
   .appointment-btn:hover,
@@ -1477,7 +1495,6 @@ body #srp-options-filtering .toggle-vehicle-options-filter .toggle-vehicle-optio
 
 body #vehicles .vehicle-unit-container {
   position: relative;
-  overflow: hidden;
   border: solid 0.134em var(--sokal-core-color-neutral-150);
   border-radius: 1.334em;
   padding: 1em;
@@ -1551,7 +1568,9 @@ body .active-template-price-block .vehicle-price-block {
   margin-right: auto;
 }
 
-body .active-template-price-block .vehicle-prices {
+body .active-template-price-block .vehicle-prices,
+body .active-template-price-block .stacked-vehicle-prices,
+body .active-template-price-block .stacked-srp-prices {
   margin-left: auto;
   margin-right: auto;
 }
@@ -1573,25 +1592,31 @@ body .active-template-price-block .get-price-btn-container {
   display: none;
 }
 
-body .active-template-price-block .vehicle-prices > [class*="col-"] > .price-label {
+body .active-template-price-block .vehicle-prices > [class*="col-"] > .price-label,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > .price-label {
   float: left;
 }
 
 body .active-template-price-block .vehicle-prices > [class*="col-"] > h3,
-body .active-template-price-block .vehicle-prices > [class*="col-"] > h4 {
+body .active-template-price-block .vehicle-prices > [class*="col-"] > h4,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > h3,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > h4 {
   float: right;
 }
 
-body .active-template-price-block .vehicle-prices > [class*="col-"] {
+body .active-template-price-block .vehicle-prices > [class*="col-"],
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] {
   width: 100%;
 }
 
-body .active-template-price-block .vehicle-prices > [class*="col-"] > * {
+body .active-template-price-block .vehicle-prices > [class*="col-"] > *,
+body .active-template-price-block .stacked-vehicle-prices > [class*="col-"] > * {
   font-size: 1.067em;
   color: var(--sokal-core-color-neutral-400);
 }
 
-body .active-template-price-block .vehicle-prices > .lowest-price[class*="col-"] > * {
+body .active-template-price-block .vehicle-prices > .lowest-price[class*="col-"] > *,
+body .active-template-price-block .stacked-vehicle-prices > .lowest-price[class*="col-"] > * {
   color: var(--sokal-pcd-ford);
 }
 
