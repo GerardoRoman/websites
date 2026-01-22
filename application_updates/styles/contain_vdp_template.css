@@ -1,0 +1,37 @@
+/* To-do: Add this to the application targeting the newest VDP Page Template */
+
+@media (min-width: 1501px) {
+  body .page-template--vdp {
+    --vdp-page-max-width: 1500px;
+    --vdp-page-price-block-width: calc(var(--vdp-page-max-width) * 0.35);
+    --vdp-page-component-width: calc(var(--vdp-page-max-width) - var(--vdp-page-price-block-width));
+    --vdp-page-left-offset: calc((100vw - var(--vdp-page-max-width)) / 2);
+    --vdp-page-price-block-offset-left: calc(var(--vdp-page-left-offset) + var(--vdp-page-component-width));
+  }
+  
+  body .page-template--vdp > *:not([class*="sticky"]) {
+    max-width: var(--vdp-page-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  body .page-template--vdp > * > [class*="sokal-container"] {
+    max-width: var(--vdp-page-component-width);
+    margin-left: 0;
+  }
+
+  body .sokal-vdp-component-sticky {
+    right: unset;
+    left: var(--vdp-page-price-block-offset-left);
+    width: var(--vdp-page-price-block-width);
+  }
+
+  body .similar-vehicles-row.sokal-vdp-component {
+    background-color: transparent;
+  }
+
+  body .page-template--vdp > .sokal-vdp-component-sticky.stop-fixed ~ .similar-vehicles-row.sokal-vdp-component > [class*="sokal-container"] {
+    max-width: 100%;
+  }
+}
