@@ -1,0 +1,26 @@
+/* Vehicle Gallery Fixes */
+/* https://demo-ford.sokalsites.com/web_dash/websites/1379/website_scripts/12207/edit */
+
+body .vehicle-gallery-only.sokal-vdp-component ul.slides li {
+  aspect-ratio: 373 / 280;
+  height: auto;
+}
+
+body .vdp-vehicle-image,
+body .vehicle-gallery-only .vehicle-images-slider .vehicle-gallery #carousel li .vdp-vehicle-image {
+  max-height: none;
+}
+  
+body .vehicle-gallery-only .vehicle-images-slider .vehicle-gallery .flexslider {
+  background-color: transparent;
+}
+
+body.shrink-vdp-gallery .vehicle-gallery-only.sokal-vdp-component #slider {
+  max-width: 568px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.shrink-vdp-gallery .vehicle-gallery-only .vehicle-images-slider .panel {
+  background: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/866/637/original/grid-pattern.png?1768410421) repeat, radial-gradient(circle, rgba(6, 111, 239, 0.1) 0%, rgba(6, 111, 239, 0.2) 45%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 1) 100%);
+}
