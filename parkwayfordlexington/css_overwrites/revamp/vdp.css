@@ -1,63 +1,7 @@
-#mobile-actions,
-#desktop-actions,
-.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
-.specials-title,
-.specials-block,
-.overview-icons a[title="Download Window Sticker"],
-#before-you-buy,
-#v-badges {
-  display: none !important;
-}
-
-#v-badges {
-  text-align: center;
-}
-
-a#couponModalBtn {
-  background: #00095b;
-  border: 2px solid #00095b;
-  width: 100%;
-  border-radius: 50px;
-  color: white;
-  padding: 12px 20px;
-  margin-bottom: 10px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-a#couponModalBtn:hover,
-a#couponModalBtn:active,
-a#couponModalBtn:focus {
-  background: #1700f4;
-  border: 2px solid #1700f4;
-  color: white;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-/* Hiding $500 Coupon CTA on USED - GR 12/19/25 */
-.vehicle-top-info[data-inventory-type="used"] .vehicle-show-buttons-stacked .col-xs-6:nth-of-type(7) {
-  display: none;
-}
-
-/* Hiding $500 Coupon CTA on NEW - GR 12/19/25 */
-.vehicle-top-info[data-inventory-type="new"] .vehicle-show-buttons-stacked .col-xs-6:nth-of-type(6) {
-  display: none;
-}
-
-/* "Start the buying Process" CTA adjustments - GR 12/19/25 */
-a#accelerateModalBtn {
-  margin: 0px;
-}
-
 /* VDP CTA'S */
 
 body .search-result-buttons .sokal-btn,
-body .search-result-buttons .payment-calculator-offer-btn,
-.price-block-sticky .vehicle-overview-side .vdp-price-btn-container .unlock-price-button,
-.price-block-sticky .vehicle-overview-side .vdp-price-btn-container .get-price-button {
+body .search-result-buttons .payment-calculator-offer-btn {
   --btn-br: 6px;
 }
 
@@ -65,16 +9,8 @@ body .search-result-buttons .sokal-btn:hover,
 body .search-result-buttons .sokal-btn:focus,
 body .search-result-buttons .payment-calculator-offer-btn:hover,
 body .search-result-buttons .payment-calculator-offer-btn:focus {
-  border-color: #00142e !important;
+  opacity: 0.9;
 }
-
-/*
-body .search-result-buttons .sokal-btn:hover,
-body .search-result-buttons .sokal-btn:focus,
-body .search-result-buttons .payment-calculator-offer-btn:hover,
-body .search-result-buttons .payment-calculator-offer-btn:focus {
-  opacity: 0.9;    
-} */
 
 body .search-result-buttons .sokal-btn::after {
   position: relative;
@@ -82,15 +18,21 @@ body .search-result-buttons .sokal-btn::after {
 
 /* PRICE BLOCK EDITS THAT NEED TO BE ADDED TO APPLICATION */
 
-.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12 {
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices>.col-xs-12.vauto-incentives {
   padding: 0;
   border-top: none;
 }
 
-.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12 .applied-rebate {
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .applied-rebate-savings-block .col-xs-12 .applied-rebate,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices>.col-xs-12.vauto-incentives .vauto-incentive {
   padding: 20px;
   border-radius: 0;
   border-top: 2px solid #E5E5E5;
+}
+
+.price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices>.col-xs-12:not(:first-child):not(:last-child):not(.col-xs-12.vauto-incentive) {
+  border-top: none;
 }
 
 .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>* {
@@ -102,13 +44,6 @@ h5.incentive-label {
 }
 
 /* PRICE BLOCK ADJUSTMENTS */
-
-.price-block-sticky .vehicle-overview-side .vdp-price-btn-container .unlock-price-button,
-.price-block-sticky .vehicle-overview-side .vdp-price-btn-container .get-price-button {
-  text-decoration: none;
-  background-color: var(--pcd);
-  column-gap: 10px;
-}
 
 .page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .payment-calculator-offer-btn,
 .page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .add-arrow {
@@ -134,30 +69,42 @@ h5.incentive-label {
   vertical-align: middle;
 }
 
-.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>button,
-.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>a {
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :not(:first-child)>button,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :not(:first-child)>a {
   color: var(--pcd);
   background-color: #ffffff;
 }
 
 .page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .add-arrow::after {
-  background-color: var(--pc);
+  background-color: black;
 }
 
-.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .add-arrow:hover::after,
-.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .payment-calculator-offer-btn:hover::after {
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]:first-child>* {
+  border-color: var(--pcd) !important;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"]:first-child .add-arrow::after {
+  background-color: #ffffff;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"]:second-child .add-arrow::after {
+  background-color: #ffffff;
+}
+
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :first-child>button,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :first-child>a {
   background-color: var(--pcd);
+  color: #ffffff;
 }
 
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>button:hover,
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>button:focus,
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>button:active,
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>a:hover,
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>a:focus,
-body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked>[class*="col-"]>a:active {
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :not(:first-child)>button:hover,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :not(:first-child)>button:focus,
+.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked> :not(:first-child)>button:active,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked> :not(:first-child)>a:hover,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked> :not(:first-child)>a:focus,
+.page-template--vdp .price-block-sticky .vehicle-overview-side .search-result-buttons .vehicle-show-buttons-stacked> :not(:first-child)>a:active {
   color: var(--pcd);
-  border-color: var(--pcd);
-  background-color: transparent;
+  border-color: var(--pcd) !important;
 }
 
 .page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>button:focus,
@@ -165,7 +112,7 @@ body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-resu
   outline: none;
 }
 
-.price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .asking-price {
+.price-block-sticky .vehicle-overview-side .price-block .stacked-vehicle-prices .asking-price>* {
   color: #ffffff !important;
 }
 
@@ -519,11 +466,71 @@ body .page-template--vdp .price-block-sticky .vehicle-overview-side .search-resu
   height: auto;
 }
 
+/* To-do: Remove this once application update goes live */
+
+@media (min-width: 992px) {
+  body.expand-left .sokal-vdp-component:not(.sokal-vdp-component-sticky) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1501px) {
+  .page-template--vdp .sokal-vdp-component:not(.sokal-vdp-component-sticky) {
+    width: 100%;
+  }
+}
+
+
 .vehicle-overview-table .vehicle-overview-cta-block .vehicle-overview-contact-btn.vehicle-overview-contact-btn-primary[alt="Text me this vehicle"] {
   display: none;
 }
 
-/* Vehicle Descriptions */
+/* Vehicle Gallery Fixes */
+/* https://demo-ford.sokalsites.com/web_dash/websites/1379/website_scripts/12207/edit */
+
+body .vehicle-gallery-only.sokal-vdp-component ul.slides li {
+  aspect-ratio: 373 / 280;
+  height: auto;
+}
+
+body .vdp-vehicle-image,
+body .vehicle-gallery-only .vehicle-images-slider .vehicle-gallery #carousel li .vdp-vehicle-image {
+  max-height: none;
+}
+
+body .vehicle-gallery-only .vehicle-images-slider .vehicle-gallery .flexslider {
+  background-color: transparent;
+}
+
+body.shrink-vdp-gallery .vehicle-gallery-only.sokal-vdp-component #slider {
+  max-width: 568px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.shrink-vdp-gallery .vehicle-gallery-only .vehicle-images-slider .panel {
+  background: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/866/637/original/grid-pattern.png?1768410421) repeat, radial-gradient(circle, rgba(6, 111, 239, 0.1) 0%, rgba(6, 111, 239, 0.2) 45%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* VDP Gallery post-app update override */
+
+body {
+  --sokal-vehicle-gallery-max-width: 100%;
+}
+
+@media(min-width: 992px) {
+  body .page-template--vdp .sticky-wrapper.is-sticky+.price-block-sticky {
+    position: fixed;
+    top: 210px;
+  }
+}
+
+@media (min-width: 992px) {
+  .show-on-page-content-wrapper.placement-top~.page-template--vdp .price-block-sticky {
+    position: absolute;
+  }
+}
+
 .vehicle-comments-and-description-component {
   margin: 0;
   text-align: left;
@@ -537,19 +544,16 @@ body .vehicle-comments-and-description-component .vdp-section-title {
   font-size: 36px;
 }
 
-/* <----- CAPITAL REVAMP TEMPLATE ENDS -----> */
-
-/* CUSTOM TO THIS SITE */
-
-.price-block-sticky .vehicle-overview-side .vdp-price-btn-container .get-price-button {
-  background-color: #00142e;
-  border-radius: 6px !important;
+a.toggle-eprice-modal.btn.eprice-button.event-click.track-click.modal-trigger.btn-default.sokal-btn.add-arrow.btn.btn-block.event-click.track-click.search-button {
+  border-color: #166FEF !important;
+  background-color: #166FEF !important;
 }
 
-svg.feather.feather-arrow-right {
-  margin-left: 0.5em;
+.price-savings h4::before {
+  content: '- ';
+  color: #30D158;
 }
 
-.page-template--vdp .price-block-sticky .vehicle-show-buttons-stacked>[class*="col-"] .add-arrow:hover::after {
-  background-color: #00142e !important;
+.vauto-incentive h4::before {
+  content: '- ';
 }
