@@ -1,0 +1,207 @@
+/* CHEVY SPECIFIC EDIT */
+.footer-components .footerWithContact .brand-tagline-wrapper .chevy-tagline-logo path {
+  fill: #000000;
+}
+/* CHEVY SPECIFIC EDIT */
+
+
+
+
+/* SOLID BG MAP & HOURS */
+.footer-components .solid-background-map-and-hours-component .map-contact {
+  /* background-color: var(--sokal-primary-color-dark);*/
+  background-color: #006FBA;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-components .solid-background-map-and-hours-component .map-contact .content-box {
+  max-width: 100%;
+}
+
+
+.footer-components .solid-background-map-and-hours-component .flex-row {
+  flex-direction: row-reverse;
+}
+
+.footer-components .col-content-map .embed-responsive {
+  border-radius: 20px;
+}
+
+.footer-components .solid-background-map-and-hours-component .map-contact .location-info-address {
+  font-size: 2rem;
+}
+
+.footer-components .solid-background-map-and-hours-component .map-contact .location-info-heading {
+  font-size: 2.8rem;
+}
+
+.footer-components .solid-background-map-and-hours-component .map-contact .hours-heading {
+  margin: 15px auto 5px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.footer-components .col-content-location-and-hours .contact-info .col-xs-12 {
+  display: flex;
+  align-items: center;
+}
+
+.footer-components .solid-background-map-and-hours-component .contact-link .fa {
+  display: inline-block;
+  font-size: 22px;
+}
+
+.footer-components .solid-background-map-and-hours-component .contact-link .fa-map::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 4L3 7v13l6-3M9 4l6 3M9 4v13m6-10l6-3v13l-6 3m0-13v13m0 0l-6-3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none' stroke='black'/%3E%3C/svg%3E") no-repeat center/contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 4L3 7v13l6-3M9 4l6 3M9 4v13m6-10l6-3v13l-6 3m0-13v13m0 0l-6-3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none' stroke='black'/%3E%3C/svg%3E") no-repeat center/contain;
+}
+
+.footer-components .solid-background-map-and-hours-component .contact-link .fa-phone::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -.125em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9.6 19.5a.9.9 0 0 1 .9-.9h3a.9.9 0 1 1 0 1.8h-3a.9.9 0 0 1-.9-.9Z'/%3E%3Cpath fill-rule='evenodd' d='M4.8 4.8c0-.955.38-1.87 1.055-2.545A3.6 3.6 0 0 1 8.4 1.2h7.2c.955 0 1.87.38 2.545 1.055A3.6 3.6 0 0 1 19.2 4.8v14.4c0 .955-.38 1.871-1.055 2.546A3.6 3.6 0 0 1 15.6 22.8H8.4a3.6 3.6 0 0 1-2.545-1.054A3.6 3.6 0 0 1 4.8 19.2V4.8Zm4.8-1.8v.9c0 .497.403.9.9.9h3c.238 0 .467-.095.636-.264.169-.169.264-.398.264-.636v-.9h1.2c.478 0 .936.19 1.273.527.338.338.527.796.527 1.273v14.4c0 .477-.19.935-.527 1.273a1.8 1.8 0 0 1-1.273.527H8.4a1.8 1.8 0 0 1-1.273-.527A1.8 1.8 0 0 1 6.6 19.2V4.8c0-.477.19-.935.527-1.273A1.8 1.8 0 0 1 8.4 3h1.2Z'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9.6 19.5a.9.9 0 0 1 .9-.9h3a.9.9 0 1 1 0 1.8h-3a.9.9 0 0 1-.9-.9Z'/%3E%3Cpath fill-rule='evenodd' d='M4.8 4.8c0-.955.38-1.87 1.055-2.545A3.6 3.6 0 0 1 8.4 1.2h7.2c.955 0 1.87.38 2.545 1.055A3.6 3.6 0 0 1 19.2 4.8v14.4c0 .955-.38 1.871-1.055 2.546A3.6 3.6 0 0 1 15.6 22.8H8.4a3.6 3.6 0 0 1-2.545-1.054A3.6 3.6 0 0 1 4.8 19.2V4.8Zm4.8-1.8v.9c0 .497.403.9.9.9h3c.238 0 .467-.095.636-.264.169-.169.264-.398.264-.636v-.9h1.2c.478 0 .936.19 1.273.527.338.338.527.796.527 1.273v14.4c0 .477-.19.935-.527 1.273a1.8 1.8 0 0 1-1.273.527H8.4a1.8 1.8 0 0 1-1.273-.527A1.8 1.8 0 0 1 6.6 19.2V4.8c0-.477.19-.935.527-1.273A1.8 1.8 0 0 1 8.4 3h1.2Z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.footer-components .solid-background-map-and-hours-component .contact-link:hover .fa,
+.footer-components .solid-background-map-and-hours-component .contact-link:active .fa,
+.footer-components .solid-background-map-and-hours-component .contact-link:focus .fa {
+  color: var(--sokal-primary-color-dark);
+  outline: none;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar {
+  width: 100%;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group .input-group-btn {
+  width: auto;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-search {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  padding-left: 0;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+}
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group .form-control:focus,
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group .form-control:focus-visible {
+  box-shadow: none;
+}
+  
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-radius: 10px 0 0 10px;
+  margin-left: 15px;
+  border-right: none;
+  z-index: 3;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn .fa-search:before {
+  color: #ffffff;
+}
+
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:hover .fa-search:before,
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:active .fa-search:before,
+.footer-components .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:focus .fa-search:before {
+  color: var(--sokal-primary-color-dark); 
+}
+
+.footer-components .solid-background-map-and-hours-component .contact-link {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.footer-components .solid-background-map-and-hours-component .map-contact .contact-hours .current-day-heading {
+  display: none;
+}
+
+.footer-components .solid-background-map-and-hours-component .nav-hour .category-name {
+  opacity: 1;
+  font-size: 2rem;
+}
+
+.footer-components .solid-background-map-and-hours-component .nav-hour .hour {
+  font-size: 2rem;
+}
+
+.footer-components .solid-background-map-and-hours-component .view-all-hours-link {
+  border-bottom: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .footer-components .solid-background-map-and-hours-component .flex-row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 992px) {
+.footer-components .col-content-map .embed-responsive-16by9 {
+    padding-bottom: 60.25%;
+  }
+}
+
+@media (min-width: 1200px) {
+.footer-components .col-content-map .embed-responsive-16by9 {
+    padding-bottom: 50.25%;
+  }
+}
+
+
+
+
+
+/* DUPLICATE DEALER NAME MARQUEE INSIDE CUSTOM FOOTER CONTENT ITEM */
+.dealer-name-marquee .marquee-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/866/637/original/grid-pattern.png?1768410421")repeat,radial-gradient(circle, rgba(0, 111, 186, 0.18) 0%, rgba(0, 111, 186, 0.05) 45%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 1) 100%);
+  color: #fff;
+  padding: 20px 0;
+  font-size: 120px;
+}
+
+.dealer-name-marquee .primary-dark-color {
+  color: #000000;
+}
+
+.dealer-name-marquee .secondary-color {
+  color: var(--sokal-primary-color);
+}
+
+.dealer-name-marquee .marquee-line {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  line-height: 110px;
+}
+
+.dealer-name-marquee .marquee-inner {
+  display: inline-block;
+  font-family: Chevy Sans-Black, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  position: relative;
+  left: 0;
+}
