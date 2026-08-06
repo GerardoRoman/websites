@@ -1,0 +1,125 @@
+/* Nav Logo */
+
+#desktop-header #desktop-logo > a,
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/002/044/947/original/RJ-Logo-042926-RacewayJeep-AllBrands-Stacked-Flat_%281%29.png?1777562614");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#header,
+header#desktop-header {
+  background-color: #f4f4f2;
+}
+body
+  .nav-right-with-contact
+  #desktop-header
+  .container
+  .header-wrapper
+  #desktop-logo
+  .dealer-logo,
+body #header.nav-right-with-contact .mobile-dealer-logo .dealer-logo {
+  display: none;
+}
+.nav-right-with-contact
+  .navbar-inverse
+  .navbar-nav
+  > li
+  > a[aria-label="search"] {
+  display: none !important;
+}
+
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a[href="/careers"] {
+  border: 2px solid #333333;
+  border-radius: 30px;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  padding: 5px 25px;
+}
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a[href="/broshowoffer"] {
+  border: 2px solid #25ef0b;
+  background-color: #25ef0b;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px 25px;
+  transition: all 0.3s;
+}
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a[href="/broshowoffer"]:hover,
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a[href="/broshowoffer"]:focus,
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a[href="/broshowoffer"]:active {
+  color: #25ef0b;
+  background-color: white;
+}
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a:hover::after,
+.nav-right-with-contact
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a:focus::after {
+  content: unset;
+}
+.mobile-contact-bar.navbar.navbar-fixed-top {
+  background: #f4f4f2;
+}
+.dup-careers-link .careers-btn {
+  color: #333333;
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 5px 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+body .nav-right-with-contact [class*="mobile-contact-bar"] .contact-info {
+  justify-content: end;
+}
+body
+  .nav-right-with-contact
+  [class*="mobile-contact-bar"]
+  .contact-info
+  .contact-item {
+  display: none;
+}

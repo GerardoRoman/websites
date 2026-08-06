@@ -1,0 +1,21 @@
+.FooterGreyLeft .row:nth-of-type(3),
+.FooterGreyLeft .row:nth-of-type(4),
+.FooterGreyLeft .row:nth-of-type(5),
+.FooterGreyLeft .footer-line-divide:nth-of-type(2) {
+    display: none !important;
+}
+.job-postings .careers-heading {
+    background: #333333;
+}
+.job-postings .job-post-item .btn-info {
+    background: #333333;
+    border-color: #333333;
+}
+.modal-dialog .ajax-form-submit-btn {
+    background: #333333;
+    border-color: #333333;
+}
+
+div#header .nav-toolbar-side .nav-contact-toolbar {
+    background-color: #F4F4F2 !important;
+}

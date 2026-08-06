@@ -1,0 +1,29 @@
+div#backgroundVideoSlider h2,
+div#backgroundVideoSlider h3 {
+    font-size: 40px;
+}
+
+body .background-video-slider .slide-content-layer {
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+body div#backgroundVideoSlider h3 {
+    font-size: 24px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+    width: fit-content;
+    margin: auto;
+}
+
+.background-video-slider .sokal-btn {
+    border-radius: 30px;
+}
+.background-video-slider .sokal-btn-primary.dark-theme::after {
+    border-radius: 30px;
+}
+.sokal-btn-secondary.dark-theme::after, .vehicle-buttons .sokal-btn-secondary.dark-theme::after {
+    border-radius: 30px;
+}
