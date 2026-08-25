@@ -1,0 +1,72 @@
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 250px;
+  height: 80px;
+  /*background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/493/342/original/Sokal-Logo-060325-HometownFord_%281%29.png?1749050187");*/
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/552/427/original/Sokal-Logo-060325-HometownFord_1-500px.png?1752084119");
+  /*background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/552/428/original/Sokal-Logo-060325-HometownFord_1-600px.png?1752084469");*/
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* EXTENDED NAV TOOLBAR */
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact {
+  --bg-color-hovered: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:hover::after,
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:focus::after {
+  background-color: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu {
+  border-radius: 10px;    
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:first-child:not(:only-child) a {
+  border-radius: 10px 10px 0 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:last-child:not(:only-child) a {
+  border-radius: 0 0 10px 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:not(:first-child):not(:last-child) a {
+  border-radius: 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:only-child a {
+  border-radius: 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .click-through-mobile-contact-bar {
+  border-bottom: solid 1px var(--nav-border-bottom-color);
+}
+
+  
+#desktop-menu li.models-dropdown-sibling::marker {
+  content: none;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn {
+  --btn-br: 6px;
+  --pc: var(--sokal-sc-ford);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:hover,
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:focus,
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn:active {
+  background-color: var(--pc);
+  color: #ffffff;
+  opacity: 0.9;
+}

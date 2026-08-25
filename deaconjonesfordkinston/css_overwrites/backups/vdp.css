@@ -1,0 +1,60 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+ #mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+#before-you-buy,
+.col.left #v-badges {
+  display: none !important;
+} 
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #00095b;
+    text-decoration: none;
+}
+.vehicle-show-buttons .cn-buy-now {
+  display: none !important;
+}
+.stacked-vehicle-prices .highest-price h3,
+.stacked-vehicle-prices .highest-price h5 {
+    color: #00095b;
+}
+
+a.toggle-eprice-modal.btn.eprice-button.event-click.track-click.modal-trigger.btn-default.hide-srp {
+    margin-top: 0px;
+}
+
+/* Temp Alignment Fix - KA 10/28/24 */
+.split-vdp-with-toolbar .search-result-buttons .vehicle-buttons-stacked > [class*="col-"] {
+    min-height: 72px;
+}
+
+/*Adjusting badge sizes to fix Cap One tool*/
+.vertical-item.badge-item {
+    width: 100%;
+}
+.vehicle-show-container a#couponModalBtn {
+    width: 100%;
+  	background-color: #00095b;
+    color: white;
+    border-color: #00095b;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 30px;
+  	margin-bottom: 6px;
+    -webkit-transition: .3s all 
+ease;
+    -o-transition: .3s all ease;
+    -moz-transition: all 0.3s ease;
+    transition: .3s all 
+ease;
+}
