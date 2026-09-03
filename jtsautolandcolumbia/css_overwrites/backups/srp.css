@@ -1,0 +1,36 @@
+/* a[href="/low-price"] img.vehicle-certification-badge {
+    height: 60px !important;
+  }
+  a[href="/BestQuality"] img.vehicle-certification-badge,
+  a[href="/advantage-package"] img.vehicle-certification-badge {
+    height: 110px !important;
+  } */
+  @media (min-width: 768px) {
+    .col-xs-12.text-center.vehicle-badges {
+      text-align: right;
+    }
+  }
+.tp-cta-button-widget {
+    margin: auto;
+}
+body .tp-cta-button-widget .tp-cta-button-btn {
+    margin: 5px auto !important;
+}
+
+/*Hide uncessary buttons on SRP.*/
+button#toggle-model-search {
+    display: none;
+}
+
+
+.vehicle-sort-menu #sortResultsDropdown:after {
+    content: "";
+}
+
+/* Price block style updates - MW (4/27/26) #100084 */
+.vehicle-unit-container .stacked-vehicle-prices .col-xs-12.highest-price.double-stacked-price h5.price-label,
+.vehicle-unit-container .stacked-vehicle-prices .col-xs-12.highest-price.double-stacked-price h3,
+.vehicle-unit-container .stacked-vehicle-prices .col-xs-12.price-add-ons h5.price-label,
+.vehicle-unit-container .stacked-vehicle-prices .col-xs-12.price-add-ons h4 {
+  font-size: 14px;
+}

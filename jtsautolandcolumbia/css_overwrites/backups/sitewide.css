@@ -1,0 +1,1172 @@
+a[href="/contact?form=service_appointment&no_redirect=true"] {
+  display: none;
+}
+/* .capital-one-prequalification-button--initialized {
+  max-width: 400px;
+} */
+
+/*Updating the Single Price Color - SE - March 6th, 2020*/
+.col-xs-12.asking-price.single-stacked-price {
+  color: red;
+}
+
+/*remove credit offer rb 12/10 */
+.srp-special {
+  display: none;
+}
+.vdp-specials {
+  display: none;
+}
+
+/* Remove the underline for the Savings Field on the SRP - SE - 11/25/2019 */
+.new-vehicle-unit
+  .stacked-srp-prices
+  .price-savings.price-high-middle-savings
+  h5 {
+  border-bottom: none;
+}
+
+/* adjust size of capital-one leads navigator badge on SRP for regular screens and mobile  - KC 9/13/22 */
+
+.capital-one-wrapper {
+  max-width: 80%;
+  margin: auto;
+  margin-right: 64px;
+}
+
+@media (min-width: 350px) and (max-width: 900px) {
+  .capital-one-wrapper {
+    margin: 0 auto;
+  }
+}
+
+/* Adding a text box over the MSRP's on the SRPs Ryan B 11/4/19 */
+
+/* Base styles for the tooltip's directional arrow */
+.tooltippy:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltippy:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.show-vehicle-info-new .vehicle-pricing-block .price-savings {
+  color: #333;
+}
+
+.show-vehicle-info-new .vehicle-pricing-block .price-savings h5 {
+  color: #333;
+}
+
+/*div.col-xs-6.vehicle-pricing-block > div > div.col-xs-12.price-savings.price-high-middle-savings > h4 {
+  text-decoration: line-through;
+}*/
+
+/* Add the coupon image on Slider coupon   sa 4/9/2019*/
+
+.vdp-modal-coupon-form.modal.fade.in .modal-header:after {
+  background-repeat: no-repeat;
+  background-size: 82%;
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/044/379/original/JTKC-Pop-101719.jpg?1574112888);
+  display: inline-block;
+  width: 123%;
+  height: 378px;
+  content: "";
+}
+
+/* Hide Zip Form Field - JL - 04/8/19 */
+/*
+input[name=zip] {    
+  display: none;
+} 
+*/
+/* End */
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+}
+
+.ws-make-an-offer-badge {
+  display: none;
+}
+
+/*Browse Vehicles Background 
+.browse-vehicles-background-component {
+  min-height: 750px;
+  height: 50vw;
+  max-height: 100vh;
+}
+*/
+/*
+.browse-vehicles-background-component .background-image-overlay .overlay-content video#homepage-background-video {
+margin-top: -200px;
+}
+*/
+.browse-vehicles-background-component
+  .background-image-overlay
+  .overlay-content
+  .browse-vechicles
+  .vehicle-browse-ajax {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.browse-vechicles .vehicle-browse-ajax img {
+  margin-bottom: 15px;
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.browse-vechicles .vehicle-browse-ajax img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .browse-vehicles-background-component
+    .background-image-overlay
+    .overlay-content {
+    padding-top: 3%;
+  }
+  .browse-vechicles .vehicle-browse-ajax img {
+    max-height: 250px;
+  }
+}
+
+/*Browse Vechicles Default*/
+.browse-vechicles .vehicle-browse-ajax img {
+  /*max-height: 65px;*/
+  margin: 15px auto;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+/*.browse-vechicles .vehicle-browse-ajax img:hover {
+  transform: scale(1.1);
+}*/
+
+.browse-vechicles .step-instructions {
+  display: none;
+}
+
+/*.browse-vechicles {
+  padding: 15px 0;
+}
+
+.browse-vechicles .col-md-3.col-sm-6.col-xs-12 {
+  margin: 15px auto;
+}
+
+.browse-vechicles .col-md-3.col-sm-6.col-xs-12:last-of-type {
+  border-right: none;
+  border-bottom: none;
+}
+
+@media (max-width: 1199px) {
+.browse-vechicles .vehicle-browse-ajax img {
+  max-height: 60px;
+}
+}
+
+@media (min-width: 992px) {
+.browse-vechicles .col-md-3.col-sm-6.col-xs-12 {
+  border-right: 1px solid #aaa;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+ .browse-vechicles .col-md-3.col-sm-6.col-xs-12:nth-of-type(odd) {
+     border-right: 1px solid #aaa;
+ } 
+}
+
+@media (max-width: 767px) {
+  .browse-vechicles .col-md-3.col-sm-6.col-xs-12:after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 30%;
+      padding-top: 20px;
+      border-bottom: 1px solid #aaa;
+  }
+  .browse-vechicles .col-md-3.col-sm-6.col-xs-12:last-of-type:after {
+      display: none;
+  }
+}*/
+
+/* other */
+.homepage-components h1 {
+  font-weight: 300;
+}
+.reviews-container {
+  background: #fff;
+  color: #333;
+  padding-top: 15px;
+}
+
+.full-width-search-bar {
+  background: #0f0f0f;
+}
+
+.full-width-search-bar input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.full-width-search-bar button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* hero */
+/* add white bg to hero overlay 2019/04/19 */
+.hero-overlay {
+  background: white !important;
+}
+
+#coa-step {
+  display: none;
+}
+
+#search-step .browse-row.vehicle-browse-ajax {
+  display: none;
+}
+
+#search-step .search-row {
+  margin-bottom: 30px;
+}
+
+#browse-vehicles-search-hero .overlay-content {
+  min-height: 500px !important;
+}
+#browse-vehicles-search-hero {
+  min-height: 500px !important;
+}
+
+@media (min-width: 768px) {
+  #buttons-step {
+    margin-top: 7%;
+  }
+  #buttons-step img {
+    max-height: 8vw;
+    width: auto !important;
+  }
+}
+#buttons-step img {
+  margin: 15px auto;
+  max-height: 80px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#buttons-step img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 767px) {
+  .mobile-contact-bar .mobile-dealer-logo img {
+    max-height: 45px;
+    margin-top: 5px;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    padding-top: 20% !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .mobile-contact-bar .mobile-dealer-logo img {
+    max-height: 60px;
+  }
+  #browse-vehicles-search-hero .overlay-content {
+    padding-top: 15% !important;
+  }
+}
+
+/* nav */
+.nav-right-expand-search header {
+  background: #fff;
+}
+
+.nav-right-expand-search
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  > a {
+  padding: 8px 6px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #0f0f0f;
+  font-weight: 400;
+}
+.nav-right-expand-search
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  .dropdown
+  .dropdown
+  menu
+  li
+  a {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Desktop Logo */
+.nav-right-expand-search header .container .header-wrapper #desktop-logo {
+  padding-right: 0;
+}
+.nav-right-expand-search .dealer-logo {
+  max-height: 65px;
+}
+
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .nav-right-expand-search .dealer-logo {
+    max-height: 50px;
+  }
+}
+
+/*
+@media (max-width: 1300px) and (min-width: 1200px) {
+  .nav-right-expand-search .dealer-logo {
+    max-height: 30px;
+  }
+} */
+
+@media (min-width: 992px) {
+  .main-menu > li.dropdown:hover .dropdown-menu {
+    visibility: visible !important;
+    display: block;
+  }
+  .main-menu .dropdown-menu li {
+    width: 100%;
+  }
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    color: #fff;
+  }
+}
+@media (max-width: 1199px) {
+  .main-menu > li > a {
+    padding: 0 !important;
+  }
+}
+
+/* Vehicle Dropdown Search */
+#hero-dropdown-search {
+  min-height: 17vh !important;
+  background: #fff;
+}
+
+#hero-dropdown-search .hero-overlay {
+  background: #fff;
+}
+
+#call-to-action-overlay {
+  color: #333 !important;
+  font-size: 48px;
+}
+
+#hero-dropdown-search .form-control {
+  border: 1px solid #999;
+}
+
+#hero-dropdown-search input.btn.search-form-btn.vehicle-search-submit {
+  background: #cc0000;
+  border: 2px solid #cc0000;
+  -moz-transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+#hero-dropdown-search input.btn.search-form-btn.vehicle-search-submit:hover {
+  color: #cc0000;
+  background: #fff;
+}
+
+#call-to-action-overlay {
+  margin-bottom: 30px !important;
+}
+
+/* navbar 2019/03/15 julie */
+.side-nav a[href="/"]:before,
+.navbar-fixed-top .navbar-nav > li:first-child a:before {
+  display: block;
+  content: "\f015";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #fff;
+  line-height: 13px;
+}
+
+@media (min-width: 1200px) {
+  .side-nav a[href="/"]:before,
+  .navbar-fixed-top .navbar-nav > li:first-child a:before {
+    color: #000 !important;
+    text-align: center;
+  }
+}
+
+.side-nav a[href="/"],
+.side-nav a[href="/"]:active,
+.navbar-fixed-top .navbar-nav > li:first-child a,
+.navbar-fixed-top .navbar-nav > li:first-child a:hover,
+.navbar-fixed-top .navbar-nav > li:first-child a:active {
+  color: transparent !important;
+  line-height: 0;
+}
+
+div#dropdown-search {
+  display: block !important;
+  padding: 0;
+}
+
+div#dropdown-search .container {
+  max-width: 731px !important;
+  padding-left: 0;
+}
+
+#dropdown-search {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  right: inherit;
+  padding: inherit;
+  background-color: inherit;
+}
+
+#dropdown-search:hover {
+  background-color: none !important;
+}
+
+#desktop-menu a[href="#dropdown-search"] {
+  display: none !important;
+}
+
+#desktop-menu a[href="#dropdown-search"]::before {
+  content: none;
+}
+
+/* contact us buttons 2019/03/15 julie */
+.contact-us-btn {
+  color: #000;
+  background-color: #fff;
+  border: solid 2px #ac1015;
+  text-transform: uppercase;
+}
+
+.contact-us-btn:hover,
+.contact-us-btn:focus,
+.contact-us-btn:active {
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  border: 2px solid #ac1015;
+  background-color: #ac1015;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+/* SRP */
+
+.stacked-srp-prices .price-savings {
+  color: #333;
+}
+
+/*h3.unlock-modal-toggle {
+  color: green;
+}*/
+
+.stacked-srp-prices .col-xs-6 {
+  width: 100%;
+  text-align: center;
+}
+
+/*.get-price-button, .unlock-price-button {
+  width: 135px;
+min-width:75%;
+  max-width: 80%;
+  cursor: pointer;
+}*/
+
+/* Refine Results Heading */
+
+/* SRP Buttons */
+.vehicle-buttons .btn-default {
+  border: none;
+}
+
+.vehicle-buttons .btn img {
+  margin: auto;
+}
+
+.srp-btn-notify {
+  background-color: grey;
+  border-radius: 5px !important;
+}
+
+.srp-btn-worth {
+  background-color: red;
+  border-radius: 5px !important;
+}
+
+.srp-btn-dealer {
+  background-color: black;
+  border-radius: 5px !important;
+}
+
+.srp-btn-low {
+  background-color: #3ba34f;
+  border-radius: 5px !important;
+}
+a.btn.btn-block.auto-apr-button.sparkle-button {
+  background: #f19903;
+  border-radius: 5px;
+}
+.srp-btn-texting {
+  background-color: #3f75d9;
+  border-radius: 5px;
+}
+
+.srp-btn-texting: hover {
+
+}
+
+a.toggle-price-alert-modal.btn.btn-block.price-alert-button.event-click.track-click.btn-default.srp-btn-notify {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a.btn.btn-block.btn-default.srp-btn-worth {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+a.btn.btn-block.btn-default.srp-btn-dealer {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* End */
+
+/* srp vdp pricing formatting 2019/03/29 Sahar */
+.vehicle-index-container .stacked-vehicle-prices {
+  padding-right: 7%;
+}
+
+.stacked-srp-prices .col-xs-6 {
+  width: 100%;
+  text-align: center;
+}
+
+.search-list .col-xs-12.highest-price.double-stacked-price,
+.search-list .col-xs-12.middle-price,
+.search-list h3.unlock-modal-toggle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.col-xs-12.highest-price.double-stacked-price {
+  color: red;
+}*/
+
+.new-vehicle-unit .highest-price.double-stacked-price {
+  padding-bottom: 5px;
+}
+
+.middle-price {
+  /*color: green;*/
+  padding-bottom: 5px;
+}
+
+.highest-price.double-stacked-price h3,
+.highest-price.double-stacked-price h5,
+.stacked-vehicle-prices .middle-price h3,
+.stacked-vehicle-prices .middle-price h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+  .vehicle-index-container span#locked-name,
+  .vehicle-index-container span#locked-xxx,
+  .vehicle-index-container i.fa.fa-lock {
+    font-size: 18px !important;
+    vertical-align: middle;
+    display: inline-flex;
+  }
+}
+
+.search-list h3.unlock-modal-toggle {
+  margin-top: 15px;
+}
+
+.unlock-price-button {
+  min-width: 80%;
+}
+
+.unlock-price-button {
+  width: 281px;
+  max-width: 139%;
+  cursor: pointer;
+}
+/*
+.unlock-price-button {
+  width: 281px;
+  max-width: 139%;
+  cursor: pointer;
+}*/
+
+/* end*/
+
+/* srp & vdp badges 2019/04/01 julie */
+a[href="/low-price"] img.vehicle-certification-badge {
+  height: 50px !important;
+}
+
+.vehicle-badges .badge-item span.cg-dealrating-badge {
+  width: 50%;
+}
+
+/* styling best quality badge 2019/04/15 julie */
+a[href="/BestQuality"] img.vehicle-certification-badge,
+a[href="/advantage-package"] img.vehicle-certification-badge {
+  height: 100px !important;
+}
+
+.map-hours-display .get-directions .search-area {
+  color: black !important;
+}
+
+.backdrop-vehicle-row-kia {
+  background: white;
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.internal-container.container.featured-car-border {
+  background-color: white;
+}
+
+.internal-container.container.featured-car-border {
+  width: 100%;
+  background-color: white;
+  padding: 5%;
+  padding-bottom: 5%;
+}
+
+/* hide estimate payment on vdp */
+.vehicle-show-container
+  .row:nth-child(6)
+  .col-sm-15.col-xs-4.no-padding.icon-border-right.col-xs-offset-2 {
+  display: none;
+}
+
+/*extra sizing adjustments for centering the red vdp buttons */
+
+@media (min-width: 768px) {
+  .vehicle-show-container .row:nth-child(6) .col-sm-15.col-xs-4.no-padding {
+    width: 25% !important;
+  }
+}
+@media (max-width: 767px) {
+  .vehicle-show-container .row:nth-child(6) .col-sm-15.col-xs-4.no-padding {
+    width: 50% !important;
+  }
+}
+/* end hide estimate payment button on vdp */
+
+/* navbar container fix 2019/05/17 julie 
+@media(min-width: 1501px) {
+#header.nav-right-expand-search .container {
+  width: 100% !important;
+}
+}
+*/
+
+/* border on prices 2019/06/06 julie */
+.locked-price-container {
+  border-top: 1px solid black;
+}
+
+/* border on prices 2019/09/03 Tim */
+@media (max-width: 1399px) and (min-width: 1201px) .logo-button img.dealer-logo {
+  max-height: 40px;
+}
+
+/*.nav-right-expand-search header .container .header-wrapper #desktop-menu .search-bar {
+  padding-top: 0;
+  float: left !important;
+}
+
+@media(min-width: 1501px) {
+#header.nav-right-expand-search .container {
+  min-width: 100% !important;
+}
+}*/
+
+.nav-right-expand-search
+  header
+  .container
+  .header-wrapper
+  #desktop-menu
+  > li
+  a {
+  line-height: 1 !important;
+}
+
+/*Tim desktop logo size*/
+
+div#desktop-logo {
+  max-width: 250px;
+  margin-right: 3%;
+}
+
+/*Move VDP price button below pricing*/
+.col-xs-6.vehicle-pricing-block {
+  width: 100%;
+}
+
+.stacked-vehicle-prices .col-xs-12.highest-price.double-stacked-price,
+.price-savings,
+.stacked-vehicle-prices .col-xs-12.middle-price,
+.stacked-vehicle-prices h3.unlock-modal-toggle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-sm-5.vehicle-top-info .col-xs-6 {
+  width: 100%;
+}
+
+/* End */
+
+/*  Make social icons bigger DM 12/20/19*/
+.FooterBlack .social-media-icons i.fa.fa-facebook,
+.FooterBlack .social-media-icons i.fa.fa-youtube,
+.FooterBlack .social-media-icons i.fa.fa-pinterest,
+.FooterBlack .social-media-icons i.fa.fa-linkedin,
+.FooterBlack .social-media-icons i.fa.fa-instagram {
+  font-size: 40px;
+  text-align: center;
+  clear: right;
+}
+
+i.fa.fa-facebook {
+  font-size: 18px;
+}
+
+i.fa.fa-youtube {
+  font-size: 18px;
+}
+
+i.fa.fa-pinterest {
+  font-size: 18px;
+}
+
+i.fa.fa-linkedin {
+  font-size: 18px;
+}
+
+i.fa.fa-instagram {
+  font-size: 18px;
+}
+
+.col-lg-3.vcenter.toolbar-social {
+  padding: 0;
+  width: 30% !important;
+}
+
+@media (max-width: 991px) {
+    .col-lg-3.vcenter.toolbar-social {
+  padding: 0;
+  width: 100% !important;
+}
+}
+
+.col-lg-3.vcenter.hidden-md.toolbar-address {
+  max-width: 17%;
+}
+/* End */
+
+/* Single Price Spacing (Mainly Tellurides) DM 01/15/20 */
+.show-vehicle-info-new
+  .vehicle-show-container
+  .col-xs-12.asking-price.single-stacked-price,
+.stacked-srp-prices .single-stacked-price {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.stacked-srp-prices .single-stacked-price h3,
+.stacked-srp-prices .single-stacked-price h5.price-label {
+  font-size: 20px;
+}
+
+.show-vehicle-info-new
+  .vehicle-show-container
+  .col-xs-12.asking-price.single-stacked-price
+  h3 {
+  margin-right: 10px;
+}
+
+.show-vehicle-info-new
+  .vehicle-show-container
+  .col-xs-12.asking-price.single-stacked-price
+  h5.price-label {
+  margin-top: 10px;
+}
+
+/*Remove carnow livechat sidebar red jm 2/20*/
+
+div#cncb3 {
+  display: none !important;
+}
+
+.new-vehicle-unit .get-price-button {
+  width: 60%;
+  cursor: pointer;
+}
+
+/* ticker font color */
+
+.ticker-content a {
+  color: #ffffff !important;
+}
+
+a.buy-from-home {
+  width: auto;
+  float: right;
+}
+.auto-apr-img {
+  margin-bottom: 3px;
+  margin-top: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+a.toggle-custom-vehicle-form.modal-trigger
+  img.vehicle-certification-badge.ls-is-cached.lazyloaded {
+  height: auto !important;
+}
+
+div:not(.accordion-col) .vehicle-certification-badge {
+  margin-top: 6px !important;
+  height: 75px !important;
+}
+
+.vehicle-unit-container .auto-apr-img {
+  margin-top: 25px !important;
+}
+
+/* .streakform .eprice-form-title {
+  display: none;
+}*/
+
+.youtube-section {
+  background-color: #fff;
+}
+
+
+
+.locked-price-container {
+  border-top: none;
+}
+
+/* end of hide locked price label */
+
+.col-xs-12.locked-price-container.show-locked-price.collapse {
+  border-top: 1px solid black;
+}
+
+.locked-price-form * {
+  font-size: 22px;
+}
+
+.col-xs-12.asking-price.lowest-price h3 {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/081/035/original/redmarker1.png?1598370836);
+  padding: 22px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+/* capital one wrapper */
+
+@media (min-width: 768px) {
+  .capital-one-wrapper {
+    max-width: 35%;
+    margin-left: auto;
+  }
+}
+
+/* New price block style changes - KC 1/16/23 */
+/*span.price-label-style {
+  opacity: .4;
+}
+.stacked-vehicle-prices .highest-price h3, 
+.stacked-vehicle-prices .middle-price h3 {
+  opacity: .4;
+}
+
+.middle-price {
+  color: red;
+}
+.stacked-srp-prices .price-savings,
+.applied-rebate,
+.vdp-container .price-savings {
+  opacity: .4;
+}*/
+
+/*.col-xs-12.asking-price.lowest-price,
+.locked-price-container.show-locked-price.collapse {
+  border-top: 1px solid #a6a6a6;
+}*/
+/*.x-style {
+  color: red;
+}
+.stacked-srp-prices .double-stacked-price {
+  color: red;
+}*/
+
+.contact-toolbar-dark-component > .container {
+  width: 100%;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices,
+.vehicle-price .row {
+  margin: auto;
+}
+
+.col-xs-12.asking-price.lowest-price:not(.collapse) {
+  color: #daa520;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.vehicle-price .lowest-price h5 {
+  margin-top: 5px !important;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+/* gif button */
+
+.price-gif-button {
+  width: 100%;
+  max-width: 300px;
+  height: 65px;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px auto;
+}
+
+/* SRP/VDP buttons */
+
+.index-btns .search-button {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #eb0a1e;
+  border: 2px solid #eb0a1e;
+  padding: 10px;
+  margin: 5px auto;
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  outline: none;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.index-btns .search-button--jt,
+.vehicle-buttons .search-button--jt,
+.index-btns .search-button--text,
+.vehicle-buttons .search-button--text {
+  background-color: #910005 !important;
+  border-color: #910005 !important;
+  border: 2px solid;
+  color: white;
+}
+
+.index-btns .search-button:hover,
+.index-btns .search-button:active,
+.vehicle-buttons .search-button:hover,
+.vehicle-buttons .search-button:active {
+  color: #eb0a1e;
+  background-color: #ffffff;
+  border: 2px solid #eb0a1e;
+}
+
+.index-btns .search-button--jt:hover,
+.vehicle-buttons .search-button--jt:hover,
+.index-btns .search-button--jt:active,
+.vehicle-buttons .search-button--jt:active,
+.index-btns .search-button--jt:focus,
+.vehicle-buttons .search-button--jt:focus,
+.index-btns .search-button--text:hover,
+.vehicle-buttons .search-button--text:hover,
+.index-btns .search-button--text:active,
+.vehicle-buttons .search-button--text:active,
+.index-btns .search-button--text:focus,
+.vehicle-buttons .search-button--text:focus {
+  background-color: white !important;
+  border-color: #910005 !important;
+  color: #910005;
+}
+
+.vehicle-price span#locked-name {
+  white-space: nowrap;
+}
+
+.vehicle-badges > * {
+  text-align: center;
+}
+.stacked-vehicle-prices .middle-price h3 {
+    font-size: 18px;
+}
+
+.dropdown-menu > li > a:focus {
+    background: #D71820 !important;
+}
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+    color: white !important;
+}
+
+/* Finance Info Page Text Change */
+.finance-info p,
+.finance-info ul li {
+  font-size: 1.5rem;
+}
+
+  .btn-success {
+    background-color: #cc0000;
+    border-color: #cc0000;
+  }
+
+  .btn-success:hover,
+  .btn-success:active,
+  .btn-success:focus {
+    background-color: #ffffff;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+  }
+
+/* Social Media Icon alignment on mobile - GR 11/04/25 */
+.social-media-icons {
+    text-align: left;
+}
+
+.price-add-ons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

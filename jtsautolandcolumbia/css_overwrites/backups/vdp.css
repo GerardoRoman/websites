@@ -1,0 +1,46 @@
+a[href="/low-price"] img.vehicle-certification-badge {
+    height: 60px !important;
+  }
+  a[href="/BestQuality"] img.vehicle-certification-badge,
+  a[href="/advantage-package"] img.vehicle-certification-badge {
+    height: 110px !important;
+  }
+
+/* adjust capital one leads navigator button on VDP for regular screens and mobile  - KC 9/13/22 */
+
+.vehicle-show-container .capital-one-wrapper {
+    margin-right: 275px;
+    padding: 20px;
+} 
+
+@media (min-width: 350px) and (max-width: 900px) {
+    .vehicle-show-container .capital-one-wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.vehicle-show-container .asking-price h5.price-label {
+    font-size: 18px;
+}
+
+/* Adding icon before 'Click for More Discounts - CD 6/10/24 */
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:before {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:after {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+.available-rebates-section {
+    text-align: -webkit-center;
+}

@@ -1,0 +1,9 @@
+.vehicle-browse-ajax #first-step .col-md-4.col-sm-6.col-xs-6 {
+    width: 50%;
+    margin-left: 0;
+}
+
+@media (max-width: 991px) {
+.browse-vehicles-background-component {
+    min-height: 400px;
+}

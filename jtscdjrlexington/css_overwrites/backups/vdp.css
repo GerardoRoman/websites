@@ -1,0 +1,204 @@
+/* NEW VDP TEMPLATE ADDITIONS */
+#mobile-actions, 
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.specials-title, 
+.specials-block,
+.buttons-title,
+.buttons-block {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+.vdp-container .toggle-disclaimer-modal {
+    display: block;
+}
+
+.vdp-container .toggle-disclaimer-modal:hover {
+    color: #036fba;
+    text-decoration: none;
+}
+.badge-item[data-name="carfax-badge"] {
+    display: none;
+}
+.show-vdp-coupon-form {
+  font-size: 11px;
+}
+.price-block .vehicle-show-buttons a {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.vdp-custom-header-height {
+  display: none;
+  height: 0 !important;
+}
+.vdp-custom-header.navbar-fixed-top {
+    position: static;
+}
+
+
+.vehicle-show-container .secondary-btn {
+    margin: 0px;
+  }
+/* Below Market Price Button */
+
+h5.price-label {
+    font-size: 15px;
+}
+.middle-price h5.price-label {
+    font-size: 20px;
+}
+.stacked-vehicle-prices .middle-price h5,
+.stacked-vehicle-prices .middle-price h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Adding icon before 'Click for More Discounts - CD 6/10/24 */
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates {
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:before {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:after {
+    content: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/931/845/original/CAMF-Logo-061024-Hangtag-2.png?1718128897);
+    padding: 10px;
+}
+
+.available-rebates-section {
+    text-align: -webkit-center;
+}
+
+/* Hiding Text to phone link until it is fixed in the Application - KA 10/21/24 */
+.vdp-container .text-vehicle {
+    display: none;
+}
+
+.stacked-vehicle-prices .col-xs-12.middle-price h5, 
+.stacked-vehicle-prices .col-xs-12.middle-price h3 {
+    color: #000000 !important;
+}
+ 
+.double-stacked-price h3, .double-stacked-price h5 {
+    color: #000000 !important;
+}
+h5.price-label {
+    font-weight: 600;
+}
+.col-xs-12.msrp-price.double-stacked-price h3 {
+    font-weight: 600;
+}
+.col-xs-12.highest-price.double-stacked-price h3 {
+    font-weight: 600;
+}
+h5.incentive-label {
+    font-weight: 600;
+}
+h4.incentive-amount {
+}
+
+.vehicle-top-info.vehicle-overview-and-price-block[data-inventory-type="new"] .search-button--offer.secondary-btn {
+    display: none !important;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] {
+    background-color: #000;
+    color: #ffffff;
+    border-bottom: black;
+}
+
+.mobile-help-icons .fa {
+    background-color: #ffffff;
+    color: #333333;
+    color: black;
+    border-color: #333333;
+    border-color: black;
+}
+
+.vehicle-spec-display:hover .vehicle-spec-display__icon {
+    border-color: #333333;
+    border-color: black;
+}
+
+.vehicle-features-wrapper .sokal-bg-cover.has-border-bottom {
+    border-bottom: 3px solid black;
+}
+
+.vehicle-features-wrapper .sokal-bg-cover {
+    border-top: 3px solid black;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__btn,
+.split-vdp-with-toolbar .vdp-section-title::after,
+.split-vdp-with-toolbar .vehicle-features-title::after {
+    background-color: black;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__name,
+.vehicle-spec-display__content .content-value,
+.vdp-custom-header[data-has-color-fill="true"] .unlock-price-button, 
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button,
+.split-vdp-with-toolbar .info-item__value, .split-vdp-with-toolbar .info-item__value * {
+    color: black;
+}
+
+.split-vdp-with-toolbar .unlock-price-button, .split-vdp-with-toolbar .get-price-button {
+    background-color: green;
+    color: #ffffff;
+    border-color: green;
+  border: 1px solid !important;
+}
+
+div#tradepending-panel {
+    background: red;
+}
+.tp-btn-trade.tp-btn-full-frame.btn.btn-block.search-button.search-button--worth.secondary-btn {
+    background-color: #017d01 !important;
+    color: #fff !important;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none !important;
+    width: 100%;
+    height: 74px;
+    align-content: center;
+}
+
+/* Hiding Locked Price until price is unlocked - CD 11/4/26 */
+
+.new-vehicle-prices h3.unlock-modal-toggle {
+    display: none !important;
+}
+
+.unlock-price-btn-container.show-locked-price {
+    padding-right: 9px;
+}
+
+/* Updating price block styling - MW (4/16/26) */
+.price-block .applied-conditional-rebates::before {
+    content: "Conditional Offers";
+    display: inline-block;
+    text-align: left;
+    width: fit-content;
+    float: left;
+    margin: 0px 0px 5px 15px;
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.price-block .used-vehicle-prices .price-add-ons h4::before {
+  content: '+';
+}

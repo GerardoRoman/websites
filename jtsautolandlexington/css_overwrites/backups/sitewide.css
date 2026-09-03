@@ -1,0 +1,241 @@
+/* SRP Button Edits CD 4/27/23 */
+
+.srp-btn-notify {
+  background-color: grey;
+  border-radius: 5px !important;
+}
+
+.srp-btn-worth {
+  background-color: red;
+  border-radius: 5px !important;
+}
+
+.srp-btn-low {
+  background-color: #3ba34f;
+  border-radius: 5px !important;
+}
+
+a.btn.btn-block.auto-apr-button.sparkle-button {
+  background: #f19903;
+  border-radius: 5px;
+}
+
+.vehicle-buttons .btn img {
+  margin: auto;
+}
+
+/* Price Block color and font sizing CD 4/27/23*/
+
+/*span.price-label-style,
+.stacked-vehicle-prices .highest-price h3,
+.stacked-vehicle-prices .middle-price h3 {
+  opacity: 0.4;
+}
+
+.col-xs-12.highest-price.double-stacked-price,
+.middle-price {
+  color: red;
+}*/
+
+.highest-price.double-stacked-price h3,
+.highest-price.double-stacked-price h5,
+.stacked-vehicle-prices .middle-price h3,
+.stacked-vehicle-prices .middle-price h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.search-list h3.unlock-modal-toggle {
+  margin-top: 15px;
+}
+
+/* Aligning Price Block CD 4/27/23 */
+
+.stacked-srp-prices .col-xs-6 {
+  width: 100%;
+  text-align: center;
+}
+
+.stacked-vehicle-prices .col-xs-12.highest-price.double-stacked-price,
+.price-savings,
+.stacked-vehicle-prices .col-xs-12.middle-price,
+.stacked-vehicle-prices h3.unlock-modal-toggle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.col-xs-12.asking-price.lowest-price,
+.locked-price-container.show-locked-price.collapse {
+  border-top: 1px solid #a6a6a6;
+}*/
+
+.vehicle-index-container .stacked-vehicle-prices {
+  padding-right: 7%;
+}
+
+/* Unlock Price Btn size Edits CD 4/27/23 */
+
+.unlock-price-button {
+  width: 281px;
+  max-width: 139%;
+  cursor: pointer;
+}
+
+.unlock-price-button {
+  min-width: 80%;
+}
+
+/* Lowest price cirlce image CD 4/27/23 */
+
+.col-xs-12.asking-price.lowest-price h3 {
+  background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/081/035/original/redmarker1.png?1598370836);
+  padding: 22px !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+}
+
+.row.stacked-vehicle-prices.new-vehicle-prices, .vehicle-price .row {
+    margin: auto;
+}
+
+.col-xs-12.asking-price.lowest-price:not(.collapse) {
+    color: #DAA520;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.vehicle-price .lowest-price h5 {
+    margin-top: 5px !important;
+    white-space: nowrap;
+  font-size: 20px;
+}
+
+/* gif button */
+
+.price-gif-button {
+    width: 100%;
+    max-width: 300px;
+    height: 65px;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px auto;
+}
+
+/* SRP/VDP buttons */
+
+.index-btns .search-button {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #EB0A1E;
+    border: 2px solid #EB0A1E;
+    padding: 10px;
+    margin: 5px auto;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    outline: none;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all .3s ease;
+}
+
+.index-btns .search-button--jt, .vehicle-buttons .search-button--jt, .index-btns .search-button--text, 
+.vehicle-buttons .search-button--text {
+    background-color: #910005 !important;
+    border-color: #910005 !important;
+    color: white;
+}
+
+.index-btns .search-button:hover, 
+.index-btns .search-button:active, 
+.vehicle-buttons .search-button:hover, 
+.vehicle-buttons .search-button:active {
+    color: #EB0A1E;
+    background-color: #ffffff;
+    border: 2px solid #EB0A1E;
+}
+
+.index-btns .search-button--jt:hover, 
+.vehicle-buttons .search-button--jt:hover, 
+.index-btns .search-button--jt:active, 
+.vehicle-buttons .search-button--jt:active, 
+.index-btns .search-button--jt:focus, 
+.vehicle-buttons .search-button--jt:focus, 
+.index-btns .search-button--text:hover, 
+.vehicle-buttons .search-button--text:hover, 
+.index-btns .search-button--text:active, 
+.vehicle-buttons .search-button--text:active, 
+.index-btns .search-button--text:focus, 
+.vehicle-buttons .search-button--text:focus {
+    background-color: white !important;
+    border-color: #910005 !important;
+    color: #910005;
+}
+
+.vehicle-price span#locked-name {
+    white-space: nowrap;
+}
+
+.vehicle-badges>* {
+    text-align: center;
+}
+
+.stacked-vehicle-prices .middle-price h3 {
+    font-size: 18px;
+}
+
+/* Footer Menu Tweaks */
+.FooterMenuA {
+    width: 102% !important;
+}
+
+body .tecobi-fab {
+    right: 250px !important;
+}
+
+.locked-price-form * {
+    font-size: 22px;
+}
+
+a.get-price-button.toggle-eprice-modal {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #910005 !important;
+    border: 2px solid #910005 !important;
+    padding: 10px;
+    margin: 5px auto;
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    outline: none;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all .3s ease;
+}
+
+a.get-price-button.toggle-eprice-modal:hover,
+a.get-price-button.toggle-eprice-modal:active,
+a.get-price-button.toggle-eprice-modal:focus {
+  background-color: white !important;
+    border-color: #910005 !important;
+    color: #910005;
+}
+
+button.btn.btn-success.btn-block.ajax-form-submit-btn {
+    background: #910005;
+    border: 1px solid #910005;
+}

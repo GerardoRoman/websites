@@ -1,0 +1,89 @@
+.nav-right-expand-search header {
+    background: #fff;
+}
+
+.nav-right-expand-search header .container .header-wrapper #desktop-menu>li a {
+    line-height: 1 !important;
+}
+
+.nav-right-expand-search header .container .header-wrapper #desktop-menu > li > a {
+    padding: 8px 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #0f0f0f;
+    font-weight: 400;
+}
+
+.side-nav a[href="/"], .side-nav a[href="/"]:active, .navbar-fixed-top .navbar-nav > li:first-child a, .navbar-fixed-top .navbar-nav > li:first-child a:hover, .navbar-fixed-top .navbar-nav > li:first-child a:active {
+    color: transparent !important;
+}
+
+@media (min-width: 1200px)
+.side-nav a[href="/"]:before, .navbar-fixed-top .navbar-nav > li:first-child a:before {
+    color: #000 !important;
+    text-align: center;
+}
+
+.side-nav a[href="/"]:before, .navbar-fixed-top .navbar-nav > li:first-child a:before {
+    display: block;
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 20px;
+    line-height: 13px;
+}
+
+@media (min-width: 1200px) {
+.side-nav a[href="/"]:before, .navbar-fixed-top .navbar-nav > li:first-child a:before {
+    color: #000 !important;
+    text-align: center;
+}
+}
+
+div#dropdown-search {
+  display: block !important;
+  padding: 0;
+}
+
+div#dropdown-search .container {
+  max-width: 731px !important;
+  padding-left: 0;
+}
+
+#dropdown-search {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  right: inherit;
+  padding: inherit;
+  background-color: inherit;
+}
+
+#dropdown-search:hover {
+  background-color: none !important;
+}
+
+#desktop-menu a[href="#dropdown-search"] {
+  display: none !important;
+}
+
+#desktop-menu a[href="#dropdown-search"]::before {
+  content: none;
+}
+
+.nav-right-expand-search header .container .header-wrapper #desktop-logo {
+    padding-right: 0;
+}
+
+div#desktop-logo {
+    max-width: 250px;
+    margin-right: 3%;
+  
+}
+
+/* Mobile Nav Edits */
+
+@media (max-width: 767px) {
+.mobile-contact-bar .mobile-dealer-logo img {
+    margin-top: 5px;
+}
+}

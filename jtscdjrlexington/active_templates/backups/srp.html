@@ -1,0 +1,72 @@
+<div class="vehicle-unit-container new-{{is_new}}">
+  <div class="vehicle-thumb">{{{srp_thumb}}}</div>
+  <div class="vehicle-content">
+      <div class="row row-no-gutters active-template-vehicle-title-block">
+          <div class="col-xs-12">
+              <a href="{{link_to_vehicle}}" class="vehicle-link">
+                  <div class="vehicle-title">
+                      <p class="vehicle-year">{{year}}</p>
+                      <p class="vehicle-make-model">
+                          <span class="make">{{make}}</span> <span class="model">{{model}}</span>
+                      </p>
+                  </div>
+                  <div class="vehicle-sub-title">
+                      <p>
+                          <span class="vehicle-trim">{{trim}}</span> | <span class="vehicle-mileage">{{mileage_delimited}} mi</span> | <span class="vehicle-spec-item vehicle-spec__label">Stock: {{stock_number}}</span>
+                      </p>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="row row-no-gutters active-template-specs-block">
+            <p class="vehicle-spec vehicle-spec--specs-modal">
+                <span class="vehicle-spec-item vehicle-spec__icon vehicle-spec__icon--has-content">i</span>
+                <span class="mazda-tooltip-trigger vehicle-spec__label" data-toggle="tooltip" data-placement="top" title="Click to view Specs">
+                    <a href="#single-vehicle-specs-modal" data-toggle="modal" data-target="#single-vehicle-specs-modal" class="view-specs-trigger">View Vehicle Specs</a>
+                </span>
+            </p>
+        
+            <div class="vehicle-specs-modal-content" style="display: none;">
+                <div class="modal-header"><strong class="header-text">{{year}} {{make}} {{model}} {{trim}}</strong><button aria-label="Close" class="close" data-dismiss="modal" tabindex="0" type="button">
+                    <div class="fa fa-close"></div>
+                </button></div>
+        
+                <div class="modal-body">
+                    <div class="vehicle-specs-block">
+                        <h2>Vehicle Specs</h2>
+                        <p class="vehicle-spec vehicle-spec--ext-color">
+                            <span class="vehicle-spec-item vehicle-spec__icon"></span>
+                            <span class="vehicle-spec-item vehicle-spec__label">Exterior Color: </span>
+                            <span class="vehicle-spec-item vehicle-spec__value">{{color_ext}}</span>
+                        </p>
+                        <p class="vehicle-spec vehicle-spec--int-color">
+                            <span class="vehicle-spec-item vehicle-spec__icon"></span>
+                            <span class="vehicle-spec-item vehicle-spec__label">Interior Color: </span>
+                            <span class="vehicle-spec-item vehicle-spec__value">{{color_int}}</span>
+                        </p>
+                        <p class="vehicle-spec vehicle-spec--drive">
+                            <span class="vehicle-spec-item vehicle-spec__icon"></span>
+                            <span class="vehicle-spec-item vehicle-spec__label">Drive: </span>
+                            <span class="vehicle-spec-item vehicle-spec__value">{{drivetrain}}</span>
+                        </p>
+                        </div>
+                </div>
+            </div>
+            <p class="vehicle-spec vehicle-spec--options-modal">
+                <span class="vehicle-spec-item vehicle-spec__icon vehicle-spec__icon--has-content">+</span>
+                <span class="mazda-tooltip-trigger vehicle-spec__label" data-toggle="tooltip" data-placement="top" title="Click to view additional features">{{{options_modal_link}}}</span>
+            </p>
+        </div>
+      <div class="row row-no-gutters active-template-price-block">
+          <div class="col-xs-12">
+              {{{price_block}}}
+          </div>
+      </div>
+      <div class="row row-no-gutters vehicle-index-buttons vehicle-buttons">
+          <div class="col-xs-12">
+              {{{index_button_0}}}{{{index_button_1}}}{{{index_button_2}}}{{{index_button_3}}}{{{index_button_4}}}{{{index_button_5}}}{{{index_button_6}}} {{{index_button_7}}}
+          </div>
+      </div>
+      <div class="row row-no-gutters active-template-vehicle-badges">{{{vehicle_badges}}}</div>
+  </div>
+</div>

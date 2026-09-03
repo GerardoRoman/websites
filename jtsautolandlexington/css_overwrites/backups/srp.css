@@ -1,0 +1,20 @@
+a[href="/low-price"] img.vehicle-certification-badge {
+    height: 60px !important;
+  }
+  a[href="/BestQuality"] img.vehicle-certification-badge,
+  a[href="/advantage-package"] img.vehicle-certification-badge {
+    height: 110px !important;
+  }
+  @media (min-width: 768px) {
+    .col-xs-12.text-center.vehicle-badges {
+      text-align: right;
+    }
+  }
+
+/* Adjusting price block styling - MW (4/22/26) */
+.vehicle-unit-container .stacked-srp-prices .used-vehicle-prices .price-add-ons h4 {
+  float: right;
+}
+.vehicle-unit-container .vehicle-price .used-vehicle-prices .price-add-ons h5.price-label {
+  width: unset;
+}
