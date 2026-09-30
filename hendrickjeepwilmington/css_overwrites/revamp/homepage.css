@@ -1,0 +1,242 @@
+/* CDJR DESIGN SETUP */
+.backgroundVideoSliderVersionTwo .background-video-slider .offer-text-template-1 .sokal-component-copy,
+.backgroundVideoSliderVersionTwo .background-video-slider .vehicles-in-stock {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.homepage-components-bg .backgroundVideoSliderVersionTwo .background-video-slider .carousel-indicators li.active {
+  background-color: var(--sokal-primary-color);
+}
+
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .interaction-bar-search-bar .search-bar .input-search,
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .interaction-bar-search-bar .search-bar button {
+  height: 63px;
+}
+
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .ibar-btn {
+  padding: 15px 20px;
+}
+
+.homepage-components-bg .interaction-bar-with-search-v-luxury-component .ibar-btn__label {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.interaction-bar-with-search-v-luxury-component .scroll-item.scroll-item--default[data-item-name="Search"] {
+  display: none;
+}
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury .full-width-search-bar.search-bar-component .tabbed-search-title {
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4rem;
+}
+
+#tabbed-search-filter-v-search-bar-luxury .full-width-search-bar.search-bar-component .tabbed-search-heading {
+  font-size: 4.8rem;
+}
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopAllInventory~#tabShopByResults,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopByPayment~#tabShopByResults {
+  background-color: var(--sokal-primary-color-dark);
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+body #tabbedSearchFilterComponent .tabbed-search-filter:not(.search-filter--mobile) .filter-ui>.tab-content.display-results #tabShopByResults,
+body #tabbedSearchFilterComponent .tabbed-filter-btn[data-trigger="open"],
+body #tabbedSearchFilterComponent .tabbed-filter-btn[data-trigger="open"]:hover,
+body #tabbedSearchFilterComponent .tabbed-filter-btn[data-trigger="open"]:active,
+body #tabbedSearchFilterComponent .tabbed-filter-btn[data-trigger="open"]:focus,
+body #tabbedSearchFilterComponent .search-filter--mobile .btn-branded,
+body #tabbedSearchFilterComponent .component-tab-pane.active .collapse-indicator {
+  background-color: var(--sokal-primary-color-dark);
+}
+
+body #tabbedSearchFilterComponent .btn-branded,
+body #tabbedSearchFilterComponent .tabbed-filter-btn[data-trigger="open"] {
+  --btn-br: 8px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+body .tabbed-search-filter #shopByModel .filter-item[data-make="ram"] .filter-item__title {
+  color: var(--sokal-primary-color-dark);
+}
+
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .shop-by-results-btn[data-placeholder-active="true"] {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link svg circle,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopAllInventory~#tabShopByResults svg circle,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopByPayment~#tabShopByResults svg circle,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .search-filter--mobile #tabShopByResults .shop-by-results-btn[data-placeholder-active="true"] svg circle {
+  fill: var(--sokal-primary-color);
+}
+
+.homepage-components-bg #tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content .results-placeholder-link svg path,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopAllInventory~#tabShopByResults svg path,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .tab-content.display-results #tabShopByPayment~#tabShopByResults svg path,
+#tabbed-search-filter-v-search-bar-luxury #tabbedSearchFilterComponent .search-filter--mobile #tabShopByResults .shop-by-results-btn[data-placeholder-active="true"] svg path {
+  stroke: var(--sokal-primary-color-light);
+}
+
+body .tabbed-search-filter [data-tab="#tabShopByMake"],
+body .tabbed-search-filter #tabShopByMake,
+body .tabbed-search-filter .filter-item:has(.filter-item__img[data-has-fallback-bg="true"]) {
+  display: none !important;
+}
+
+.homepage-components-bg .specials-slider-v-luxury .slide-content__offer {
+  background-color: var(--sokal-primary-color-dark);
+}
+
+.homepage-components-bg .specials-slider-v-luxury .sokal-link-secondary {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+#specialsSliderVLuxuryComponent .carousel-indicators li.active {
+  background-color: var(--sokal-primary-color);
+}
+
+body #shopping-tools-tiles {
+  background-color: var(--sokal-primary-color-dark);
+}
+
+body #seo-content-accordion-component .seo-content-accordion,
+body #seo-content-accordion-component .accordion-header {
+  color: var(--sokal-primary-color-dark);
+}
+
+/* TARGETING ALL SOKAL LINKS FOR STYLING UPDATES */
+
+body .sokal-link {
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body .sokal-btn:hover {
+  opacity: 0.9;
+}
+
+body .sokal-link:hover,
+body .sokal-link:focus,
+body .sokal-link:hover>*,
+body .sokal-link:focus>* {
+  opacity: 0.7;
+}
+
+.sokal-link .sokal-link-copy::after {
+  content: none;
+}
+
+body .sokal-btn-primary.dark-theme:hover,
+body .sokal-btn-primary.dark-theme:focus {
+  color: var(--sokal-btn-color);
+}
+
+:root {
+  --scroll-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'/%3E%3Cpolyline points='12 5 19 12 12 19'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 575px) {
+
+  #brandPopularModelsHorizontalScrollComponent .scroll-overlay,
+  #videoCardsComponent .scroll-overlay {
+    display: none;
+  }
+
+  #brandPopularModelsHorizontalScrollComponent .scroll-nav--left,
+  #videoCardsComponent .scroll-nav--left {
+    padding-left: 2%;
+  }
+
+  #brandPopularModelsHorizontalScrollComponent .scroll-nav--right,
+  #videoCardsComponent .scroll-nav--right {
+    padding-right: 2%;
+  }
+
+  #brandPopularModelsHorizontalScrollComponent .scroll-nav-btn,
+  #videoCardsComponent .scroll-nav-btn {
+    background-image: none;
+    background-size: initial;
+    background-position: initial;
+    background-repeat: initial;
+    background-color: #00000075;
+  }
+
+  #brandPopularModelsHorizontalScrollComponent .scroll-nav-btn::after,
+  #videoCardsComponent .scroll-nav-btn::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: var(--scroll-arrow);
+    filter: invert(1);
+    display: block;
+    margin-left: -2.5px;
+  }
+}
+
+.homepage-components-bg .specials-slider-v-luxury .slide-offer-templated-txt .more-emphasis {
+  font-size: 3rem;
+}
+
+.homepage-components-bg .specials-slider-v-luxury .less-emphasis {
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .homepage-components-bg .specials-slider-v-luxury .slide-offer-templated-txt .more-emphasis {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .homepage-components-bg .specials-slider-v-luxury .slide-offer-templated-txt .more-emphasis {
+    font-size: 1.5rem;
+  }
+
+  .homepage-components-bg .specials-slider-v-luxury .less-emphasis {
+    font-size: 1rem;
+  }
+
+  .specials-slider-v-luxury .sokal-link-secondary {
+    font-size: 1.25rem;
+  }
+}
+
+/* END CDJR DESIGN SETUP */
+
+
+/* SITE SPECIFIC */
+
+.scroll-item.scroll-item--default[data-item-name="Model Research"] {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .interaction-bar-with-search-component {
+    display: none !important;
+  }
+}

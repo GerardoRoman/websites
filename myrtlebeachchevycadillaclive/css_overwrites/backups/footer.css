@@ -1,0 +1,35 @@
+body .FooterGreyLeft {
+  background-color: #243C81;
+  color: #ffffff;
+  color: var(--pc);
+}
+body .FooterGreyLeft * {
+  color: #ffffff !important;
+}
+body .FooterGreyLeft .sokal-white-logo {
+  opacity: 1;
+  background: #333333;
+  background: var(--pc);
+  padding: 10px;
+  height: 40px;
+}
+.FooterGreyLeft > .container > .row:nth-of-type(5) {
+  display: none;
+}
+
+body .solid-background-map-and-hours-component .map-contact {
+  background: #243C81;
+}
+
+body .solid-background-map-and-hours-component .contact-link:hover, 
+body .solid-background-map-and-hours-component .contact-link:active, 
+body .solid-background-map-and-hours-component .contact-link:focus,
+body .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:hover, 
+body .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:active, 
+body .solid-background-map-and-hours-component .search-bar .input-group-btn .search-submit-btn:focus{
+  color: #243C81;
+}
+
+.vehicle-disclaimer {
+  font-size: 12px;
+}

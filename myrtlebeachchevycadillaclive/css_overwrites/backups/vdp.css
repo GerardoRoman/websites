@@ -1,0 +1,259 @@
+#mobile-actions,
+#desktop-actions,
+.vdp-container .block.card.hidden-lg .contact-block.hidden-lg,
+.hidden-lg .vdp-specials .special-offer,
+.specials-title,
+.specials-block,
+.block-heading.minor-title.buttons-title,
+.vertical-item.badge-item[data-name="carfax-badge"] {
+  display: none !important;
+}
+
+#v-badges {
+  text-align: center;
+}
+
+body .vdp-container .available-rebates-section .available-rebates-btn {
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
+
+.toggle-disclaimer-modal {
+  display: block;
+}
+
+#v-badges div[data-name="certification-badge"] img {
+  max-width: 200px;
+  height: auto !important;
+}
+
+div:not(.accordion-col) .vehicle-certification-badge {
+  min-height: 75px;
+}
+
+/* Split VDP CTA changes */
+.split-vdp-with-toolbar .search-result-buttons .btn {
+  background-color: #ffffff !important;
+  color: #243C81 !important;
+  border-color: #243C81 !important;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:hover {
+  background-color: #243C81 !important;
+  color: #ffffff !important;
+  border-color: #243C81 !important;
+}
+
+.split-vdp-with-toolbar .search-result-buttons .btn:active,
+.split-vdp-with-toolbar .search-result-buttons .btn:focus {
+  background-color: #243C81 !important;
+  color: #ffffff !important;
+  border-color: #243C81 !important;
+}
+
+/* VDP Changes to match Beach Chevrolet */
+.primary-btn {
+  margin: 5px 0;
+}
+
+.split-vdp-with-toolbar .available-rebates-section .available-rebates-btn {
+  text-decoration: none;
+}
+
+.split-vdp-with-toolbar ul.avaliable-conditional-rebates {
+  text-align: left;
+}
+
+.get-price-button:hover,
+.get-price-button:active,
+.get-price-button:focus {
+  color: #1e4280 !important;
+}
+
+.fixed-top-subnav.vdp-custom-header.navbar-fixed-top.vdp-subnav--title-trim-mileage-price-block {
+  position: static;
+}
+
+.fixed-top-subnav-height.vdp-custom-header-height {
+  display: none;
+}
+
+
+/* Removing ePrice Button on VDP Sticky */
+.vdp-custom-header[data-has-color-fill="true"] .get-price-button {
+  display: none;
+}
+
+.split-vdp-with-toolbar .available-rebates-btn {
+  padding: 0 5px;
+}
+
+/* Font Changes to Pricing 
+.new-price-block-styles .price-block h3, .new-price-block-styles .stacked-vehicle-prices h3 {
+ font-size: 16px;
+ font-weight: 700;
+}*/
+
+body .highest-price h3,
+body .highest-price h5.price-label {
+  font-size: 16.005px !important;
+  font-weight: 500;
+  color: var(--sokal-core-color-neutral-400) !important;
+}
+
+.lowest-price h3,
+.single-price h3,
+.single-stacked-price h3,
+.lowest-price h5,
+.single-price h5,
+.single-stacked-price h5 {
+  font-size: 16.005px !important;
+  font-weight: 600;
+  color: #333333 !important;
+}
+
+
+/* VDP Changes */
+
+.split-vdp-with-toolbar .info-item__value {
+  color: #243C81;
+}
+
+.vdp-custom-header[data-has-color-fill="true"] {
+  background-color: #243C81;
+  color: #ffffff;
+}
+
+.split-vdp-with-toolbar .info-item__value,
+.split-vdp-with-toolbar .info-item__value * {
+  color: #243C81;
+}
+
+.vdp-custom-header {
+  border-bottom: 3px solid #243C81;
+}
+
+.vehicle-spec-display:hover {
+  color: #243C81;
+}
+
+.vehicle-spec-display__content .content-value {
+  ;
+  color: #243C81;
+}
+
+.mobile-help-icons .fa {
+  color: #243C81;
+  border-color: #243C81;
+}
+
+.split-vdp-with-toolbar .vehicle-features-title::after {
+  background-color: #243C81;
+}
+
+.split-vdp-with-toolbar .vdp-section-title::after {
+  background-color: #243C81;
+}
+
+.split-vdp-with-toolbar .vdp-section-title::after {
+  background-color: #243C81;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__btn {
+  background-color: #243C81;
+}
+
+.split-vdp-with-toolbar .similar-vehicle__name {
+  color: #243C81;
+}
+
+/* Share Icon */
+span.overview-icon.overview-icon--share {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+  margin-left: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+span.share-btn--text-span {
+  color: black;
+  vertical-align: bottom;
+}
+
+
+/* Changing color for "Click Here For Additional Savings" btn - also edited on SRP - GR 05.21.25 // ADJUSTED ON 06/05/25 FOR SUP00078808 
+.streakform .btn-success.form-submit-button, body .vehicle-model-dropdown .search-btns .btn, .service-coupons .col-xs-8.col-xs-offset-2.col-sm-4.col-sm-offset-4.col-md-4.col-md-offset-4 .appointment-btn, .btn-success, body .vehicle-index-buttons .search-button, body .vehicle-show-buttons .search-button {
+    background-color: #ae8642 !important;
+    color: #ffffff !important;
+    border-color: #ae8642 !important;
+}
+
+button.btn.btn-block.btn-success.available-rebates-btn.show-available-rebates:hover {
+    background-color: #ffffff !important;
+    color: #ae8642 !important;
+    border-color: #ae8642 !important;
+}
+
+ */
+
+.split-vdp-with-toolbar .get-price-button {
+  background-color: #1e4280;
+  color: #ffffff;
+  border-color: #1e4280;
+}
+
+.split-vdp-with-toolbar .get-price-button:hover,
+.split-vdp-with-toolbar .get-price-button:active,
+.split-vdp-with-toolbar .get-price-button:focus {
+  border-color: #1e4280;
+}
+
+.vehicle-spec-display:hover .vehicle-spec-display__icon {
+  border-color: #1e4280;
+}
+
+.vehicle-features-wrapper .sokal-bg-cover.has-border-bottom {
+  border-bottom: 3px solid #1e4280;
+}
+
+.vehicle-features-wrapper .sokal-bg-cover {
+  border-top: 3px solid #1e4280;
+}
+
+a.get-price-button:focus {
+  color: black !important;
+}
+
+.vehicle-info-item.vehicle-info-item--window-sticker {
+  display: none !important;
+}
+
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h3,
+.new-price-block-styles .price-block h3,
+.new-price-block-styles .stacked-vehicle-prices h3,
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h4,
+.new-price-block-styles .price-block h4,
+.new-price-block-styles .stacked-vehicle-prices h4,
+.new-price-block-styles .vehicle-index-price.vehicle-price-block h5,
+.new-price-block-styles .price-block h5,
+.new-price-block-styles .stacked-vehicle-prices h5 {
+  font-size: 16.005px;
+}
+
+.inventory-fees-block {
+  order: 1;
+}
+
+.price-block .stacked-vehicle-prices>.col-xs-12:last-child {
+  order: 2;
+}
+
+.stacked-vehicle-prices.new-vehicle-prices,
+.stacked-vehicle-prices.used-vehicle-prices {
+  display: flex;
+  flex-direction: column;
+}

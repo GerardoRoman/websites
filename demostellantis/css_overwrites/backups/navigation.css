@@ -1,0 +1,144 @@
+/* CDJR TWEAKS */
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+  
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar, 
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar {
+  border-bottom: 1px solid #ffffff;
+}
+
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact #desktop-header {
+  border-bottom: 1px solid #737373;
+}
+
+body #nav-right-with-contact-v-extended-toolbar .click-through-mobile-contact-bar {
+  --nav-border-bottom-color: #737373;
+}
+  
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar[data-extended-version="true"] .row-no-gutters [class*="col-"] .vcenter {
+  border-color: #000000;
+}
+
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar,
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar {
+  --pcd: #ffffff;
+  --pcl: #000000;
+  --text-color: #000000;
+}
+
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar a, 
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar a {
+  --text-color: #000000;
+  color: var(--text-color);
+}
+  
+#desktop-phone-menu {
+  list-style-type: none;
+}
+
+body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact>.visible-sm.visible-xs .mobile-dealer-logo>a {
+  width: 125px;
+}
+@media (min-width: 576px) {
+  body #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact>.visible-sm.visible-xs .mobile-dealer-logo>a {
+    width: 150px;
+  }
+}
+  
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li.dropdown>a {
+  position: relative;
+  padding: 10px 18px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:not(a[href="#dropdown-search"])::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 46%;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid #737373;
+  border-bottom: 2px solid #737373;
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li.dropdown:hover > a::before {
+  transform: translateY(-50%) rotate(225deg);
+}
+
+.nav-right-with-contact header .container .header-wrapper #desktop-menu > li:last-of-type a[href="#dropdown-search"] {
+  padding-left: 18px;
+  color: #737373;
+}
+
+/* CDJR TWEAKS END */  
+
+  
+/* Nav Logo */
+
+#desktop-header img.dealer-logo, 
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+#desktop-header #desktop-logo > a, 
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 350px;
+  height: 80px;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/940/637/original/SOKAL-SP-012626-HometownCJDR-04-1920.png?1772049405");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}  
+
+/* Vehicle Model Dropdown */
+
+body .vehicle-model-dropdown .models-wrapper .model-container .model-text {
+  letter-spacing: 0px;
+}
+
+/* EXTENDED NAV TOOLBAR */
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact {
+  --bg-color-hovered: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:hover::after,
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:focus::after {
+  background-color: var(--sc);
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu {
+  border-radius: 10px;    
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:first-child:not(:only-child) a {
+  border-radius: 10px 10px 0 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:last-child:not(:only-child) a {
+  border-radius: 0 0 10px 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:not(:first-child):not(:last-child) a {
+  border-radius: 0;
+}
+
+#nav-right-with-contact-v-extended-toolbar .nav-right-with-contact header .container .header-wrapper ul.dropdown-menu > li:only-child a {
+  border-radius: 10px;
+}
+
+#nav-right-with-contact-v-extended-toolbar .click-through-mobile-contact-bar {
+  border-bottom: solid 1px var(--nav-border-bottom-color);
+}

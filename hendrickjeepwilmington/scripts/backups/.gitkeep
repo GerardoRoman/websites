@@ -1,0 +1,31 @@
+<script>
+  // USE THIS WHEN DEALER JUST WANTS ALL NEW OF WHATEVER BRAND/MODEL THEY CHOOSE
+  function getVehicleCount(make) {
+    return $.ajax({
+      url: `https://demo-stellantis.sokalsites.com/ajax/matching_vehicles?make=${make}&is_new=true`,
+      method: "GET",
+      data: { make }
+    }).then(data => data.vehicles_amount)
+      .fail(err => {
+        console.error("AJAX error:", err);
+        return 0;
+      });
+  }
+
+  $.when(
+    getVehicleCount("chrysler"),
+    getVehicleCount("dodge"),
+    getVehicleCount("jeep"),
+    getVehicleCount("ram")
+  ).done(function(chrysler, dodge, jeep, ram) {
+    document.querySelector(".bpm-card[data-brand='Chrysler'] .vehicle-count").textContent = chrysler + ' available';
+    document.querySelector(".bpm-card[data-brand='Dodge'] .vehicle-count").textContent = dodge + ' available';
+    document.querySelector(".bpm-card[data-brand='Jeep'] .vehicle-count").textContent = jeep + ' available';
+    document.querySelector(".bpm-card[data-brand='Ram'] .vehicle-count").textContent = ram + ' available';
+  });
+
+  $(document).ready(function() {
+    $(window).trigger('horizontal-scroll-init');
+  });
+
+</script>

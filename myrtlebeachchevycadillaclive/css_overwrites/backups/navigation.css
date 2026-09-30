@@ -1,0 +1,681 @@
+/* Nav Logo */
+
+/* #desktop-header img.dealer-logo,
+    .mobile-dealer-logo img.dealer-logo {
+      display: none !important;
+    }
+
+    #desktop-header #desktop-logo > a,
+    .mobile-dealer-logo > a {
+      display: inline-block;
+      width: 300px;
+      height: 80px;
+      background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/997/247/original/MBC-Logo-2026-Bowtie-White-1200x300_%281%29.png?1774877164");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+*/
+/* Nav Logo */
+
+.sub-navigation img.dealer-logo,
+.mobile-dealer-logo img.dealer-logo {
+  display: none !important;
+}
+
+.sub-navigation > .row > .col-sm-4.text-center>a,
+.mobile-dealer-logo > a {
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  max-width: 100%;
+  background-image: url("https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/997/247/original/MBC-Logo-2026-Bowtie-White-1200x300_%281%29.png?1774877164");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+      margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .mobile-dealer-logo > a {
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    max-width: 100%;
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/997/247/original/MBC-Logo-2026-Bowtie-White-1200x300_%281%29.png?1774877164);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mobile-dealer-logo > a {
+    display: inline-block;
+    width: 250px;
+    height: 80px;
+    max-width: 100%;
+    background-image: url(https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/997/247/original/MBC-Logo-2026-Bowtie-White-1200x300_%281%29.png?1774877164);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+}
+    
+    /* Top Contact Toolbar */
+    
+    body .nav-right-with-contact .nav-toolbar-side {
+      width: 70%;
+    }
+    
+    body .nav-right-with-contact header .container .header-wrapper #desktop-logo {
+      max-width: 30%;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar {
+      color: #333333;
+      color: var(--pc);
+      background-color: #ffffff;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar a,
+    body .nav-right-with-contact .navbar-inverse .navbar-nav > li > a {
+      color: #ffffff !important;
+      color: var(--pcd);
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar a:hover {
+      color: #333333;
+      color: var(--pc);
+      opacity: 0.7;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar .phone-link {
+      border-right-color: #333333;
+      border-right-color: var(--pc);
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar a {
+      font-size: 12px;
+    }
+    
+    /* Desktop Menu */
+    
+    body .nav-right-with-contact,
+    body .nav-right-with-contact .navbar.navbar-inverse,
+    body .nav-right-with-contact header,
+    body .nav-right-with-contact .nav-contact-toolbar {
+      background-color: #243C81 !important;
+    }
+    
+    body .nav-right-with-contact .navbar .dropdown-menu > li > a {
+      color: #333333;
+      /* Primary Color was too light, thought black would look better CD 11/02/23*/
+      /*color: var(--pc);*/
+      color: black;
+    }
+    
+    body .nav-right-with-contact .navbar .dropdown-menu > li > a:hover,
+    body .nav-right-with-contact .navbar .dropdown-menu > li > a:focus,
+    body .nav-right-with-contact #more-dropdown:hover {
+      background-color: #333333;
+      background-color: var(--pc);
+      color: #ffffff;
+    }
+    
+    body
+      .nav-right-with-contact
+      header
+      .container
+      .header-wrapper
+      ul.dropdown-menu {
+      background-color: #ffffff;
+    }
+    
+    body .nav-right-with-contact #dropdown-search {
+      background-color: #ffffff;
+    }
+    
+    .nav-right-with-contact .navbar-inverse .navbar-nav > .open > a,
+    .nav-right-with-contact .navbar-inverse .navbar-nav > .open > a:hover,
+    .nav-right-with-contact .navbar-inverse .navbar-nav > li > a:hover,
+    .nav-right-with-contact .navbar-inverse .navbar-nav > .open > a:focus,
+    .nav-right-with-contact .navbar-inverse .navbar-nav > li > a:focus {
+      color: #ffffff;
+      color: var(--pc);
+      opacity: 1;
+    }
+    
+    body .vehicle-model-dropdown .search-btns .btn {
+      color: #ffffff !important;
+      background-color: #243C81 !important;
+      border: 2px solid #243C81 !important;
+  	  text-decoration: none;
+    }
+    
+    body .vehicle-model-dropdown .search-btns .btn:hover,
+    body .vehicle-model-dropdown .search-btns .btn:focus,
+    body .vehicle-model-dropdown .search-btns .btn:active {
+      color: #ffffff ;
+      background-color: #243C81;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar {
+      padding: 20px 0px 7px 0px;
+    }
+    
+    body .nav-right-with-contact header .container .header-wrapper #desktop-menu {
+      padding: 5px 0px 10px 0px;
+    }
+    
+    #desktop-logo .dealer-logo {
+      width: 200px;
+    }
+    
+    body
+      .nav-right-with-contact
+      header
+      .container
+      .header-wrapper
+      #desktop-menu
+      > li
+      > a {
+      font-size: 14px;
+    }
+    
+    body .nav-right-with-contact .navbar.navbar-inverse,
+    .mobile-contact-bar {
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+      border-bottom: solid 1px #333333;
+      border-bottom: solid 1px var(--pc);
+    }
+    
+    body .vehicle-model-dropdown .models-wrapper .model-container .model-text {
+      letter-spacing: 0px;
+    }
+    
+    /*
+      body .vehicle-model-dropdown .models-wrapper .model-container img {
+          max-height: 72px;
+      }
+      */
+    
+    /* Mobile Nav */
+    
+    body .nav-right-with-contact #desktop-logo::after,
+    body .nav-right-with-contact .mobile-dealer-logo::after {
+      color: white;
+      border-left-color: #333333;
+      border-left-color: var(--pc) !important;
+    }
+    
+    body .nav-right-with-contact .mobile-contact-bar {
+      background-color: #ffffff;
+    }
+    
+    body .nav-right-with-contact .mobile-contact-bar .mobile-menu-toggle .icon-bar {
+      background: #333333;
+      background: var(--pc);
+    }
+    
+    body .nav-right-with-contact .mobile-contact-bar .contact-info .contact-item,
+    body .click-through-mobile-contact-bar .contact-info .contact-item {
+      color: #333333;
+      color: var(--pc);
+    }
+    
+    body
+      .nav-right-with-contact
+      .mobile-nav-bar
+      .search-bar
+      .input-group-btn
+      button {
+      border-color: #333333;
+      border-color: var(--pc);
+    }
+    
+    body .nav-right-with-contact .mobile-dealer-logo > a {
+      height: 80%;
+    }
+    
+    body .click-through-mobile-contact-bar .contact-info {
+      width: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    
+    body .click-through-mobile-contact-bar .contact-info .contact-item {
+      margin-right: 0;
+    }
+    
+    @media (max-width: 575px) {
+      body .nav-right-with-contact .mobile-contact-bar .contact-info {
+        width: 60px;
+        margin-right: 0px;
+      }
+    
+      body .mobile-contact-bar .mobile-dealer-logo img {
+        padding: 3px;
+      }
+    
+      body .nav-right-with-contact .mobile-dealer-logo {
+        width: calc(100% - 120px);
+        max-width: unset;
+        justify-content: center;
+      }
+    }
+    
+    /* Additional Nav Styles */
+    
+    body .nav-right-with-contact header {
+      background-color: #ffffff;
+    }
+    
+    body .nav-right-with-contact #dropdown-search {
+      left: unset;
+      padding: 10px 10px 25px 10px;
+      width: 500px;
+      -moz-box-shadow: 0px 5px 5px 0px #76767627;
+      -webkit-box-shadow: 0px 5px 5px 0px #76767627;
+      box-shadow: 0px 5px 5px 0px #76767627;
+    }
+    
+    .nav-right-with-contact
+      header
+      .container
+      .header-wrapper
+      #desktop-menu
+      > li:last-of-type {
+      position: relative;
+    }
+    
+    body #header.nav-right-with-contact #dropdown-search > .container {
+      width: 100%;
+      min-width: 0;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar a,
+    body
+      .nav-right-with-contact
+      header
+      .container
+      .header-wrapper
+      #desktop-menu
+      > li
+      > a {
+      text-transform: capitalize;
+      letter-spacing: 0px;
+    }
+    
+    /* Nav Dropdown Search */
+    
+    body .nav-right-with-contact #dropdown-search {
+      display: block !important;
+      -moz-transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      -webkit-transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+    
+    body .nav-right-with-contact #dropdown-search.hidden {
+      visibility: hidden;
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+    
+    body .nav-right-with-contact #dropdown-search:not(.hidden) {
+      visibility: visible;
+      -moz-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    
+    /* End of Nav Universal Revamp */
+    
+    /* Custom CSS for Myrtle Beach Chevy */
+    
+    /* Combining Service & Parts Numbers in the Nav*/
+    a.sales.phone-link.phone-parts.ws-dynamic-number {
+        display: none;
+    }
+    
+    a.sales.phone-link.phone-service.ws-dynamic-number {
+        border: none;
+        margin: 0;
+        padding-right: 0;
+    }
+    
+    @media (min-width: 1200px) {
+        .nav-right-with-contact .nav-contact-toolbar[data-items*="phone-sales"][data-items*="phone-service"]
+      [data-items*="phone-parts"][data-items*="address"][data-items*="hours"]
+      [data-items*="translate"]:not([data-has-matching-phones="true"]) .toolbar-select-language {
+            display: block !important;
+        }
+    }
+    
+    body .nav-right-with-contact .vehicle-model-dropdown .search-btns .btn {
+        background: #243C81;
+        border: 2px solid #243C81;
+    }
+    
+    body .nav-right-with-contact .navbar .dropdown-menu > li > a:hover, 
+    body .nav-right-with-contact .navbar .dropdown-menu > li > a:focus, 
+    body .nav-right-with-contact #more-dropdown:hover {
+        background: #243C81;
+    }
+    
+    body .nav-right-with-contact .navbar.navbar-inverse, .mobile-contact-bar {
+      border-bottom: 1px solid #ffffff;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar a:hover {
+        color: #243C81;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar .phone-link {
+        border-right-color: #ffffff;
+    }
+    
+    
+    /* Navbar Changes */
+    
+    .navbar {
+      background: #cd9834;
+    }
+    
+    .nav.navbar.navbar-inverse {
+        background: #243C81;
+        border-bottom: 1px solid #fff !important;
+    }
+    
+    nav.navbar.navbar-inverse.nav-right.nav-no-border,
+header{
+        background: #243C81 !important;
+    }
+    
+    .sub-navigation .contact-and-social .phone {
+        color: #ffffff;
+    }
+    .sub-navigation .contact-and-social .phone a {
+        color: white;
+    }
+    .sub-navigation .contact-and-social .address a {
+        color: white;
+    }
+    
+    /*header {
+      background: #ffffff!important;
+    }*/
+    
+    .phone .text-right span, .phone .text-right a {
+    color: white;
+}
+    
+.header-with-navigation-below .header-content .row {
+    display: flex;
+    align-items: center;
+}
+
+.header-with-navigation-below .fixed-content .search-bar .input-group .input-group-btn .btn {
+    background: #243C81;
+}
+
+.header-with-navigation-below .navigation-content .navbar-nav>li>a {
+    color: white;
+}
+
+ul.nav.navbar-nav.navbar-left {
+    float: none !important;
+}
+
+.nav-google-translate.pull-right {
+    margin-top: 10px;
+}
+
+.header-with-navigation-below .navigation-content .navbar-nav>li>a:hover,
+.header-with-navigation-below .navigation-content .navbar-nav>li>a:active,
+.header-with-navigation-below .navigation-content .navbar-nav>li>a:focus,
+.header-with-navigation-below .navigation-content .navbar-nav>li .dropdown-menu>li>a:hover,
+.header-with-navigation-below .navigation-content .navbar-nav>li .dropdown-menu>li>a:active,
+.header-with-navigation-below .navigation-content .navbar-nav>li .dropdown-menu>li>a:focus {
+    color: white !important;
+  background: #243C81;
+}
+
+.header-with-navigation-below .navigation-content .navbar-nav>li>a:after,
+.header-with-navigation-below .navigation-content .navbar-nav .open>a:after {
+    background: white;
+}
+    
+    
+    /*.phone {
+      color: #000000;
+    }
+    
+    a {
+        color: #000000;
+        text-decoration: none;
+    }*/
+    
+    .navbar-inverse .navbar-nav>.open>a {
+      background-color: #fff;
+        color: #243C81;
+    }
+    
+    .navbar-inverse .navbar-nav>.open>a:hover, 
+    .navbar-inverse .navbar-nav>.open>a:focus {
+      background-color: #fff;
+        color: #243C81;
+    }
+    
+    .navbar li a:hover, #more-dropdown:hover {
+        background-color: #243C81;
+        color: #ffffff;
+    }
+    
+    .dropdown-menu>li>a:hover {
+        background-image: none;
+        background-color: #243C81;
+    }
+    
+    .social-media-icons a {
+        color: #ffffff;
+    }
+    
+    /* Centering Logo and search bar */
+    @media (min-width: 768px) {
+        .dealer-logo {
+            margin: 30px auto;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        header .search-bar {
+            padding-top: 35px;
+        }
+    }
+    
+    .tiktok-logo {
+        display: none;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover {
+        background: white;
+        color: #ffffff ;
+    }
+    .navbar-inverse .navbar-nav>li>a[href="/"]:hover::before {
+        color: #ffffff !important;
+    }
+    
+    /* Nav Contact Color changes - SUP00078808 - GR 06/04/25 */
+    #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar, #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar {
+        background-color: #243C81 !important;
+    }
+    a.sales.phone-link.phone-service.ws-dynamic-number {
+        padding-right: 15px;
+    }
+    #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .nav-contact-toolbar a, #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar a {
+        font-size: 12px !important;
+    }
+    body .nav-right-with-contact .navbar.navbar-inverse, .mobile-contact-bar {
+        border-bottom: 1px solid #ffffff !important;
+    }
+    .contact-toolbar-dark-component.toolbar-sticky.sticky-nav-element {
+        background: #243C81;
+    }
+    .contact-toolbar-dark-component.toolbar-sticky.sticky-nav-element {
+        border-bottom: 1px solid #ffffff;
+    }
+    .contact-toolbar-dark-component.toolbar-sticky.sticky-nav-element .row {
+            text-align: center;
+        }
+    
+    .contact-toolbar-dark-component.toolbar-sticky.sticky-nav-element .search-bar {
+      max-width: 750px;
+      padding: 5px 0px;
+        }
+    
+      div#desktop-logo a::before {
+        display: none;
+    }
+    .mobile-dealer-logo a::before {
+        display: none !important;
+    }
+    ul#desktop-menu li:nth-child(12) {
+        display: none !important;
+    }
+    .navbar-inverse a[href="/"]:before, .navbar-fixed-top a[href="/"]:before {
+        color: white !important;
+    }
+    .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:hover::after, .nav-right-with-contact header .container .header-wrapper #desktop-menu>li>a:focus::after {
+        width: 100%;
+        background-color: white !important;
+        opacity: 1;
+    }
+    body .nav-right-with-contact .nav-contact-toolbar::after {
+        content: '';
+        display: block;
+        width: 200vw;
+        height: 1px;
+        position: absolute;
+        left: -100vw;
+        bottom: 0;
+        background-color: var(--sokal-color-lincoln-cool-gray, #53565A);
+    }
+    
+    .click-through-mobile-contact-bar.navbar.navbar-fixed-top {
+        background: #243C81 !important;
+    }
+    
+    .click-through-mobile-contact-bar .contact-info .contact-item .fa {
+        color: white !important;
+    }
+    
+    .nav-right-with-contact .click-through-mobile-contact-bar .mobile-menu-toggle .icon-bar {
+        background-color: #ffffff !important;
+    }
+    
+    .mobile-nav-utility-bar {
+        background: #243C81 !important;
+    }
+    
+    .nav-right-with-contact .mobile-nav-utility-bar a {
+      color: #ffffff !important;
+    }
+    
+    body .nav-right-with-contact .nav-contact-toolbar::after {
+        background-color: white;
+    }
+    
+    #nav-right-with-contact-v-extended-toolbar .nav-right-with-contact .mobile-nav-utility-bar {
+      border-bottom: 1px solid #fff;
+    }
+    
+    nav.navbar.navbar-inverse.navbar-fixed-top.nav-justified {
+        background: #253d81;
+  border-bottom: 1px solid #fff;
+    }
+
+.dealer-contact-section h3.text-right {
+    margin-top: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: white;
+    color: #243C81;
+}
+
+.navbar-header .mobile-directions,
+.navbar-header .click-to-call {
+  background-color: #243C81;
+}
+
+@media (max-width: 767px) {
+    .sub-navigation > .row > .col-sm-4.text-center>a {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .phone .text-right span {
+        font-size: 15px;
+    }
+    .sub-navigation .contact-and-social .phone a {
+        font-size: 18px;
+    }
+    .social-media-icons {
+        text-align: justify;
+    }
+}
+
+.navigation-content {
+    margin-top: 1px !important;
+}
+
+.header-with-navigation-below .navigation-content .navbar-nav .open>a {
+  color: white !important;
+}
+
+.click-through-mobile-contact-bar .mobile-menu-toggle .icon-bar {
+  background-color: white;
+}
+
+.navigation-address {
+        color: white;
+        font-size: 14px;
+    }
+
+.nav-address-wrapper {
+        text-align: right;
+    }
+
+    .navigation-address:hover,
+.navigation-address:active,
+.navigation-address:focus {
+        color: white;
+        text-decoration: underline;
+    }
+
+.header-with-navigation-below .navigation-content .navbar-nav>li {
+    font-size: 16px;
+}
+
+.header-with-navigation-below .navigation-content .navbar-nav>li .dropdown-menu>li>a {
+    font-size: 16px;
+}
+
+/* Fixing "New" dropdown CTAs */
+body .vehicle-model-dropdown .search-btns .btn {
+    background-color: #ffffff !important;
+    color: #243C81 !important;
+    border: 1px solid #243C81 !important;
+    text-decoration: none !important;
+    font-size: 14px;
+}

@@ -1,0 +1,25 @@
+a.btn.search-button.search-button--notify.visible-xs.visible-sm.click-to-call-cta {
+    margin-top: 5px;
+}
+.price-discount-pricing-layout-slot {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/*SRP filter bar spacing fix - QA (MW - 9/25/26)*/
+.scroll-srp-options-filtering-component #scrollSrpOptionsFiltering > .scroll-horizontal {
+  display: flex;
+}
+.scroll-srp-options-filtering-component #scrollSrpOptionsFiltering > .scroll-horizontal > li:has( > .toggle-vehicle-options-filter.hidden) {
+  display: none;
+}
+.row.row-no-gutters.active-template-tabbed-payment-and-features-block {
+    display: none;
+}
+.row.row-no-gutters.active-template-specs-block {
+    display: none;
+}
+.active-template-compare-vehicle.sokal-my-1.sokal-mb-0 {
+  display: none;
+}

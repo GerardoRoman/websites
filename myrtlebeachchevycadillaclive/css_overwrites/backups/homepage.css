@@ -1,0 +1,919 @@
+/* NEW REDESIGN AND NEW CSS START*/
+
+#browse-vehicles-search-hero #coa-step,
+#browse-vehicles-search-hero #search-step .browse-row,
+#browse-vehicles-search-hero #buttons-step,
+#browse-vehicles-search-hero #search-step .search-row > .col-xs-12:nth-child(1) {
+  display: none;
+}
+#browse-vehicles-search-hero {
+  padding-bottom: 60px;
+  min-height: unset;
+}
+#browse-vehicles-search-hero .background-row {
+  bottom: unset;
+  height: calc(100% - 35px);
+}
+#browse-vehicles-search-hero .overlay-content {
+  background: none;
+  padding: 0%;
+  min-height: 160px;
+  height: 35vw;
+}
+#browse-vehicles-search-hero .overlay-content .browse-vehicles,
+#browse-vehicles-search-hero .overlay-content .browse-vehicles > .container {
+  height: 100%;
+}
+#browse-vehicles-search-hero .overlay-content .browse-vehicles > .container {
+    position: relative;
+}
+#browse-vehicles-search-hero #search-step {
+  position: absolute;
+  left: 0px;
+  bottom: -50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#browse-vehicles-search-hero #search-step > .search-row {
+    width: 900px;
+    max-width: 100%;
+}
+#browse-vehicles-search-hero .search-row input {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 0px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0px 0px 5px 5px #76767627;
+  -moz-box-shadow: 0px 0px 5px 5px #76767627;
+  box-shadow: 0px 0px 5px 5px #76767627;
+}
+#browse-vehicles-search-hero .search-row input:focus {
+  z-index: 2;
+}
+#browse-vehicles-search-hero .search-row .btn {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 0px;
+  -webkit-box-shadow: 1px 8px 5px -4px #76767627;
+  -moz-box-shadow: 1px 8px 5px -4px #76767627;
+  box-shadow: 1px 8px 5px -4px #76767627;
+}
+#browse-vehicles-search-hero .search-row .search-bar .input-search, 
+#browse-vehicles-search-hero .search-row .search-bar .input-group-btn .btn {
+  font-size: 15px;
+  background-color: #ffffff;
+}
+#browse-vehicles-search-hero .search-row .search-bar .input-search::placeholder {
+  color: #efefef;
+}
+#browse-vehicles-search-hero .search-row .search-bar .input-search {
+  padding-left: 25px;
+}
+#browse-vehicles-search-hero .search-row .search-bar .input-group-btn .btn {
+  color: #efefef;
+  padding-right: 25px;
+}
+#browse-vehicles-search-hero .search-row .search-bar .input-search, 
+#browse-vehicles-search-hero .search-row input:focus ~ .input-group-btn .btn {
+  color: #243C81;
+}
+
+/* SHOP & SERVICE FILTER */
+
+body #hp-shop-service-component .shop-inventory-buttons .btn,
+body #hp-shop-service-component .service-buttons .btn {
+   	max-width: 300px;
+}
+body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+   	text-align: center;
+}
+body #hp-shop-service-component .service-buttons .btn {
+	display: inline-block;
+}
+body #hp-shop-service-component .shop-inventory-buttons .btn, 
+body #hp-shop-service-component .service-buttons .btn {
+  border: 2px solid transparent;
+  background: #243C81;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+  text-transform: capitalize;
+}
+body #hp-shop-service-component .shop-inventory-buttons .btn:hover, 
+body #hp-shop-service-component .service-buttons .btn:hover,
+body #hp-shop-service-component .shop-inventory-buttons .btn:active, 
+body #hp-shop-service-component .service-buttons .btn:active,
+body #hp-shop-service-component .shop-inventory-buttons .btn:focus, 
+body #hp-shop-service-component .service-buttons .btn:focus {
+  background: #ffffff;
+  color: #243C81;
+/*  border-color: #c3002f;*/
+}
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  text-transform: capitalize;
+}
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:hover,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:focus,
+body #hp-shop-service-component .search-form-btn.vehicle-search-submit:active {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
+}
+/*
+body #hp-shop-service-component .shop-inventory-buttons .new-vehicles {
+  background: #ffffff;
+  color: #c3002f;
+}
+body #hp-shop-service-component .shop-inventory-buttons .pre-owned-vehicles {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+*/
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+	width: 35%;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active:first-child {
+    border-right: none;
+    border-top-right-radius: 0;
+    width: 65%;
+  	-webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):first-child {
+    border-top-right-radius: 0;	  
+    border-bottom-right-radius: 6px;  
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active:last-child {
+    border-left: none;
+    border-top-left-radius: 0;
+    width: 65%;
+    -webkit-transition: .3s all ease; 
+    -o-transition: .3s all ease; 
+    -moz-transition: all 0.3s ease;
+    transition: .3s all ease;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):last-child {
+    border-top-left-radius: 0;	
+    border-bottom-left-radius: 6px;
+}
+
+body #hp-shop-service-component {
+  background: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/000/657/692/original/2023-silverado-mcm-gallery-ext-0_%281%29.png?1699367884');
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+body #hp-shop-service-component .container {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: #ffffff59;
+  padding: 0;
+  border-radius: 6px;
+}
+
+body #hp-shop-service-component .shop-box {
+  background: transparent;
+  color: #243C81;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs {
+  background: transparent;
+  border: none;
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li {
+  border: 2px solid #ffffff;
+  background-color: #bfbfbf;
+/*  border-bottom: none;*/
+}
+body #hp-shop-service-component .shop-box .nav-tabs li.active {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-bottom: none;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:hover:not(.active) {
+	background-color: #EBEBEB;
+  	border-color: transparent;
+}
+/*
+body #hp-shop-service-component .shop-box .nav-tabs li:hover:not(.active) a {
+	color: #c3002f;
+}
+*/
+body #hp-shop-service-component .shop-box .nav-tabs li.active a {
+  color: #ffffff;
+  background-color: transparent;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:after {
+	height: 3px;
+  	width: 50%
+}
+
+body #hp-shop-service-component .shop-box .nav-tabs li.active:after {
+  background: #ffffff;
+}
+
+body #hp-shop-service-component .tab-pane {
+    border: 2px solid #ffffff;
+  	background-color: transparent;
+}
+
+body #hp-shop-service-component .form-group:not(#search-submit) {
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body #hp-shop-service-component .form-control {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+body #hp-shop-service-component .matching-vehicles-found,
+body #hp-shop-service-component #service-filter .service-hours .col-xs-12 p {
+  color: #ffffff;
+}
+body #hp-shop-service-component .tab-pane.active,
+body #hp-shop-service-component #shop-filter.active,
+body #hp-shop-service-component #service-filter.active {
+	background-color: transparent;
+  	border-top: none;
+    min-height: 250px;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a {
+	color: #000000;
+}
+body #hp-shop-service-component .shop-box .nav-tabs li:not(.active) a:hover {
+	color: #000000;
+}
+#hp-shop-service-component #service-filter .hours-box {
+    font-size: 1.75rem;
+}
+
+@media (min-width: 1441px) {
+	body #hp-shop-service-component {
+	    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hp-shop-service-component #service-filter .hours-box {
+      font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+	body #hp-shop-service-component .tab-pane .shop-inventory-buttons .col-sm-6.col-xs-12 {
+    	text-align: right;
+	}
+  	body #hp-shop-service-component .shop-inventory-buttons .new-vehicles {
+    	display: inline-block;
+	}
+}
+@media (max-width: 767px) {
+  body #hp-shop-service-component .container {
+  	width: 75%;
+  }
+	body #hp-shop-service-component .shop-inventory-buttons .btn,
+  	body #hp-shop-service-component .service-buttons .btn {
+    	display: inline-block;    	
+	}
+  	body #hp-shop-service-component .tab-pane .shop-inventory-buttons .col-sm-6.col-xs-12,
+  	body #hp-shop-service-component .service-buttons .col-sm-4.col-xs-12 {
+    	text-align: center;
+	}
+  	body #hp-shop-service-component .tab-pane.active, 
+  	body #hp-shop-service-component #shop-filter.active, 
+  	body #hp-shop-service-component #service-filter.active {
+  		min-height: 600px;
+  }
+  	body #hp-shop-service-component #service-filter .service-buttons {
+  		margin: 35px 0;
+  }
+	body #hp-shop-service-component #service-filter .hours-box {
+    	margin-bottom: 25px;
+	}
+  	body #hp-shop-service-component .form-group:not(#search-submit) {
+	    width: 75%;
+	    margin: 0 auto 15px auto;
+  	}
+  	body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+  	#hp-shop-service-component #service-filter .service-hours {
+    	width: 75%;
+    	margin: auto;
+	}
+}
+@media (max-width: 499px) {
+	body #hp-shop-service-component .container {
+  		width: 90%;
+  }
+  	body #hp-shop-service-component .form-group:not(#search-submit),
+   	body #hp-shop-service-component .search-form-btn.vehicle-search-submit,
+	#hp-shop-service-component #service-filter .service-hours {
+	    width: 85%;
+  	}
+  	#hp-shop-service-component .shop-inventory-buttons .btn, 
+  	#hp-shop-service-component .service-buttons .btn {
+  		font-size: 12px !important;
+  	}
+  	body #hp-shop-service-component .shop-box .nav-tabs li {
+    	min-height: 66px;
+	}
+
+	body #hp-shop-service-component .shop-box .nav-tabs li.active {
+    	padding-top: 10px;
+	}
+  	#hp-shop-service-component #service-filter .hours-box {
+      	font-size: 1.5rem;
+  }
+}
+@media (min-width: 432px) and (max-width: 499px) {
+	body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):first-child {
+  		padding-top: 10px
+  	}
+}
+@media (min-width: 354px) and (max-width: 499px) {
+	body #hp-shop-service-component .shop-box .nav-tabs li:not(.active):last-child {
+  		padding-top: 10px
+  	}
+}
+
+/* MAP & HOURS */
+
+.modern-map-hp-content .map-contact {
+  background-color: #000000;
+  color: #ffffff;
+}
+.modern-map-hp-content .map-contact .content-box {
+  padding: 30px;
+  max-width: 460px;
+  margin: auto;
+}
+.modern-map-hp-content .map-contact h4,
+.modern-map-hp-content .map-contact h5,
+.modern-map-hp-content .map-contact .contact-link {
+  color: #bfbfbf !important;
+  text-transform: uppercase;
+}
+.modern-map-hp-content .map-contact p,
+.modern-map-hp-content .map-contact .contact-link {
+  font-size: 13px;
+  font-weight: 400;
+}
+.modern-map-hp-content .map-contact .dealer-location {
+  margin-top: 0px;
+}
+.modern-map-hp-content .map-contact .dealer-address {
+  margin: 15px 0px;
+}
+.modern-map-hp-content .map-contact .hours-heading {
+  margin-top: 30px;
+}
+.modern-map-hp-content .map-contact .modern-map-icon {
+  height: 13px;
+  margin-right: 3px;
+}
+.modern-map-hp-content .map-contact .contact-hours p, 
+.modern-map-hp-content .map-contact h4 {
+  margin-bottom: 5px;
+}
+.contact-hours--service .mon-fri,
+.contact-hours--service .sat-only,
+.contact-hours--service .sunday--closed {
+	display: block !important;
+}
+.contact-hours--sales  .mon-fri.hidden, 
+.contact-hours--sales .sat-only.hidden, 
+.contact-hours--sales .sunday--closed.hidden {
+  display: block !important;
+}
+
+/* FEATURED VEHICLES */
+
+#featured-vehicles-component .wrapper {
+    border: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 !important;
+  	width: 100%;
+  	display: inline-block !important;
+}
+.featured-vehicle-block:hover .featured-car-data {
+	padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.featured-vehicle-block .featured-car-data {
+  transition: padding 0.2s ease;
+  padding: 0 !important;
+  height: auto !important;
+}
+#featured-vehicles-component .wrapper:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 0px 15px 7px #76767627;
+    box-shadow: 0px 0px 15px 7px #76767627;
+}
+#featured-vehicles-component .wrapper .featured-car-img img {
+    border-radius: 6px;
+}
+#featured-vehicles-component .featured-vehicle-block:hover .featured-car-img img {
+  border-radius: 6px 6px 0px 0px;
+}
+.FeaturedHeading {
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.featured-vehicle-vin,
+.ribbon-wrapper-green,
+.FeaturedHeading,
+.FeaturedPriceTag {
+    display: none;
+}
+/* ADDING ON */
+.spects {
+  	display: flex;
+  	flex-direction: column;
+    color: #000000;
+}
+.feat-year {
+    font-size: 16px;
+/*    margin-bottom: 10px;*/
+}
+
+.feat-model {
+    font-size: 16px;
+  	font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.feat-color--ext {
+  	border-top: solid 1px #777777;
+    padding-top: 5px;
+  	padding-bottom: 10px;
+}
+
+.feat-color--ext span, 
+.feat-mileage span {
+    font-weight: lighter;
+    color: #767676;
+}
+.feat-mileage, 
+.feat-color--ext {
+    font-size: 13px;
+    font-weight: bold;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  	margin-bottom: 5px;
+}
+.feat-price::before {
+    content: "Retail Price";
+}
+
+.feat-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+#featured-vehicles-component .btn {
+  display: none;
+  background-color: #243C81;
+  color: #ffffff;
+  border: 1px solid #243C81;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 34px;
+  border-radius: 0px;
+  -webkit-transition: .3s all ease; 
+  -o-transition: .3s all ease; 
+  -moz-transition: all 0.3s ease;
+  transition: .3s all ease;
+}
+#featured-vehicles-component .btn:hover, 
+#featured-vehicles-component .btn:active, 
+#featured-vehicles-component .btn:focus {
+  color: #243C81;
+  background-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #243C81;
+}
+
+@media (min-width: 768px) {
+    #featured-vehicles-component .container-fluid {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    #featured-vehicles-component .container-fluid {
+        width: 970px;
+    }
+  	.featured-car-img {
+    	height: 200px;
+	    max-width: 275px;
+        margin: auto;
+	}
+}
+
+@media (min-width: 1200px) {
+    #featured-vehicles-component .container-fluid {
+        width: 1170px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .featured-vehicle-block {
+  		width: 50%;
+  }
+  .featured-car-img {
+    	height: 275px;
+    	max-width: 345px;
+        margin: auto;
+	}
+}
+@media (max-width: 767px) {
+  .featured-vehicle-block {
+  	width: 100%;
+  }
+	#featured-vehicles-component .wrapper {
+    	margin-bottom: 5% !important;
+	    width: 95%;
+	}
+  #featured-vehicles-component .wrapper .featured-car-img img {
+        border-radius: 6px 6px 0px 0px;
+    }
+}
+
+
+/*Newer additional additions*/
+
+.quick-link__btn.secondary-btn {
+    background: #ffffff;
+    color: #000000;
+}
+.quick-links-component a {
+    text-decoration: none;
+}
+.homepage-components #specialsSlider6040 .btn-branded {
+    border-radius: 0px;
+}
+.quick-link .quick-link__title {
+    min-height: 53px;
+}
+.modern-map-hp-content .map-contact .embed-responsive.embed-responsive-16by9 {
+  border: 1px solid;
+}
+.modern-map-hp-content .map-contact {
+    background: #efefef;
+    color: #000000;
+}
+.modern-map-hp-content .map-contact h4, .modern-map-hp-content .map-contact h5, .modern-map-hp-content .map-contact .contact-link {
+    color: #333333 !important;
+}
+/*Newer additional additions end*/
+/* NEW REDESIGN AND NEW CSS END*/
+
+/* Editing mobile search bar */
+
+@media (min-width: 425px) and (max-width: 991px) {
+    .specials-slider-6040 .slide-offer__title {
+        margin: 0px !important;
+    }
+}
+
+.full-width-search-bar {
+    background: #393839;
+}
+
+/*.hp-btn {
+      opacity: 0.8;
+}*/
+
+.hp-btn:hover,
+.hp-btn:active,
+.hp-btn:focus {
+    opacity: 1;
+}
+
+@media (max-width: 1199px) {
+        .hp-btn {
+    margin-bottom: 28px;
+        }
+    }
+
+/*@media (min-width: 992px) and (max-width: 1199px) {
+    #first-step .hp-btn img {
+        max-width: 235px;
+    }
+}*/
+
+@media (max-width: 991px) {
+    .hp-btn img {
+        width: 100%;
+    }
+}
+
+    /*@media (min-width: 991px) {
+        .container.vehicle-browse-ajax {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+        }
+    }*/
+
+.container.vehicle-browse-ajax {
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.hp-btn a {
+    text-align: -webkit-center;
+}
+
+/*@media (min-width: 991px) {
+    .hp-btn img {
+        max-width: 284px;
+    }
+}*/
+
+.homepage-components .browse-by-component .line-divide {
+  background: #243C81;
+}
+
+.homepage-components .vehicle-type-display {
+  color: #243C81;
+}
+
+.homepage-components .vehicle-type-display .nav>li.active>a {
+    color: #243C81;
+    background: #ffffff;
+    border-bottom: 3px solid #243C81;
+    border-top: none;
+}
+
+.homepage-components .vehicle-type-display .nav>li>a:hover {
+    background: #ffffff;
+    border-bottom: 3px solid #243C81;
+}
+
+.browse-vehicles-background-component .background-image-overlay .overlay-content {
+    padding-top: 5%;
+}
+#tabbedVehicleCarouselRows ul li[role="suv-tab"] {
+    order: -1;
+}
+#tabbedVehicleCarouselRows ul {
+    display: flex;
+    justify-content: center;
+}
+
+h2.sokal-component-heading {
+        display: none;
+}
+
+/*
+#featured-vehicles-component-v2 {
+    display: none;
+}
+*/
+
+.interaction-bar-with-search-sticky-component, .interaction-bar-with-search-sticky-component.horizontal-scroll-component .scroll-horizontal {
+    background-color: #243C81 !important;
+}
+
+.interaction-bar-with-search-sticky-component .ibar-btn__icon svg {
+    fill: #ffffff !important;
+}
+
+/*.interaction-bar-with-search-sticky-component .ibar-btn__icon svg:hover,
+.interaction-bar-with-search-sticky-component .ibar-btn__icon svg:active,
+.interaction-bar-with-search-sticky-component .ibar-btn__icon svg:focus {
+    fill: #ffffff #243C81;
+}*/
+
+.interaction-bar-with-search-sticky-component .ibar-btn__icon .cls-1, 
+.interaction-bar-with-search-sticky-component .ibar-btn__icon .cls-2, 
+.interaction-bar-with-search-sticky-component .ibar-btn__icon .cls-3 {
+    stroke: #ffffff !important;
+}
+
+.interaction-bar-with-search-sticky-component .interaction-bar-search-bar .search-submit-btn, 
+.interaction-bar-with-search-sticky-component .interaction-bar-search-bar .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+    background: #243C81;
+    border-radius: 0px !important;
+    border-color: white !important;
+}
+
+body button.btn.btn-default.no-border-left.search-submit-btn:hover {
+    color: #243C81;
+    background: white !important;
+}
+
+.interaction-bar-with-search-sticky-component .interaction-bar-search-bar .input-search {
+    font-size: 14px;
+    border: solid 2px;
+    border-color: white !important;
+    border-color: var(--search-btn-border-color, #000000);
+    border-right: 0;
+    border-radius: 0px !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 6px 8px 6px 25px;
+}
+
+.interaction-bar-with-search-sticky-component .ibar-btn {
+    color: #ffffff !important;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+
+body .nav-right-with-contact .navbar.navbar-inverse, .mobile-contact-bar {
+    border-bottom: 1px solid #ffffff !important;
+}
+
+body .interaction-bar-with-search-sticky-component .ibar-btn:hover span {
+    color: #ffffff !important;
+}
+
+body .interaction-bar-with-search-sticky-component .ibar-btn:hover svg {
+    fill: #ffffff !important;
+}
+body .interaction-bar-with-search-sticky-component .ibar-btn:hover path {
+    stroke: #ffffff !important;
+}
+
+body .interaction-bar-with-search-component .ibar-btn:hover, body .interaction-bar-with-search-component .ibar-btn:active, body .interaction-bar-with-search-component .ibar-btn:focus {
+    color: #ffffff !important;
+  stroke: white !important;
+  fill: white !important;
+    opacity: 1 !important;
+}
+
+.interaction-bar-with-search-sticky-component .ibar-btn:hover, .interaction-bar-with-search-sticky-component .ibar-btn:active, .interaction-bar-with-search-sticky-component .ibar-btn:focus {
+    opacity: 1 !important;
+}
+
+.scroll-item.scroll-item--default[data-item-name="View Specials"] {
+    order: -1;
+}
+
+.scroll-item.scroll-item--default[data-item-name="Schedule Service"] {
+    order: -2;
+}
+body .horizontal-scroll-component .scroll-nav-btn {
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important;
+}
+
+.horizontal-scroll-component .scroll-overlay--right {
+    right: -1%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 5%, #fff 100%) !important;
+    background: linear-gradient(to right, var(--overlay-color-min) 0%, var(--overlay-color-min) 5%, (#000, #fff) 100%) !important;
+}
+
+.horizontal-scroll-component .scroll-overlay--left {
+    right: -1%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 5%, #fff 100%) !important;
+    background: linear-gradient(to left, var(--overlay-color-min) 0%, var(--overlay-color-min) 5%, (#000, #fff) 100%) !important;
+}
+
+.dropdown-search-filter {
+    display: none !important;
+}
+
+.homepage-components-bg #browse-arbitrary-search-overflow-hero .inventory-type-button-block {
+  font-size: 1.8rem
+}
+
+#browse-arbitrary-search-overflow-hero .inventory-type-button-block {
+        background-color: #243C81 !important;
+    border: 1px solid #ffffff;
+    color: white !important;
+}
+
+#browse-arbitrary-search-overflow-hero .bg-layer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #browse-arbitrary-search-overflow-hero .hp-btn-content--quad + .search-bar-content, 
+  #browse-arbitrary-search-overflow-hero .hp-btn-content--quad {
+        max-width: 700px !important;
+        margin: auto;
+    }
+}
+
+  .overlay-content .browse-step .hp-btn {
+    z-index: 9;
+}
+
+.homepage-components-bg #browse-arbitrary-search-overflow-hero {
+  margin: 0px;
+}
+
+.homepage-components-bg .browse-step .hp-btn--new a.btn::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Space between image and text */
+  background-image: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/782/707/original/icon4.png?1764107622'); 
+  background-size: contain; /* Scale to fit */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homepage-components-bg .browse-step .hp-btn--used a.btn::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Space between image and text */
+    background-image: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/782/706/original/icon1.png?1764107622'); 
+    background-size: contain; /* Scale to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .homepage-components-bg .browse-step .hp-btn--specials a.btn::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Space between image and text */
+    background-image: url('https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/782/708/original/icon2.png?1764107622'); 
+    background-size: contain; /* Scale to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .homepage-components-bg .browse-step .hp-btn-service a.btn::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; /* Space between image and text */
+    background-image: url('	https://d2v1gjawtegg5z.cloudfront.net/uploads/files/001/782/705/original/icon3.png?1764107621'); 
+    background-size: contain; /* Scale to fit */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.homepage-components-bg .browse-step a.track-click.btn.btn-lg.inventory-type-button-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+        .homepage-components #browse-arbitrary-search-overflow-hero .bg-layer {
+            background-position-x: -210px;
+        }
+    }
+
+@media (min-width: 992px) {
+        .homepage-components #browse-arbitrary-search-overflow-hero .browse-filter-hero-component .container-sm,
+  .homepage-components .browse-step.hp-btn-content.hp-btn-content--quad {
+    width: 100%;
+    max-width: 1440px !important;
+} 
+    }
+
+.browse-filter-hero-component .inventory-type-button-block {
+  margin-bottom: 0px;
+}
